@@ -8,18 +8,22 @@ public class Delivery : MonoBehaviour
     [SerializeField] private PackageManager Packages;
     [SerializeField] private GameObject ExclamationPoint;
     private bool thisHouse = false;
-
-    private void Update()
+    private float timer = 0f;
+    private void FixedUpdate()
     {
-        if(thisHouse)
-            ExclamationPoint.SetActive(true);
-        else
-            ExclamationPoint.SetActive(false);    
+        if (thisHouse)
+            timer += Time.fixedDeltaTime;
+        
+        if (timer > 10f)
+            thisHouse = false;
+        
+        ExclamationPoint.SetActive(thisHouse);
     }
 
     public void Selected()
     {
-        thisHouse = true;
+        thisHouse = !thisHouse;
+        timer = 0f;
     }
 
     private void OnTriggerEnter(Collider collided)

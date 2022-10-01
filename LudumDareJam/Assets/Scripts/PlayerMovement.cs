@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
             lastDir = moveInput;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             dashTimer = true;
         }
@@ -60,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Dash()
     {
-
         dashAmount--;
         rb.velocity = Vector3.zero;
         rb.AddForce(lastDir * dashForce, ForceMode.Impulse);
