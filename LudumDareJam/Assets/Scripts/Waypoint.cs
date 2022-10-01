@@ -9,41 +9,19 @@ public class Waypoint : MonoBehaviour
 
     public GameObject arrow;
 
-
-    private IEnumerator Start()
-    {
-        GetAllWaypoints();
-        yield return new WaitForSeconds(.5f);
-        SetNewPoint();
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SetNewPoint();
-        }
-    }
-
     private void LateUpdate()
     {
         RotateArrow();
     }
 
-    public void SetNewPoint()
+    public void SetNewPoint(Transform housePos)
     {
         int randomPoint = Random.Range(0, houseWaypoints.Length);
-        currentPoint = houseWaypoints[randomPoint].transform;
+        currentPoint = housePos;
     }
 
-    public void RotateArrow()
+    private void RotateArrow()
     {
         arrow.transform.LookAt(currentPoint);
     }
-
-    public void GetAllWaypoints()
-    {
-        houseWaypoints = GameObject.FindGameObjectsWithTag("Post Box");
-    }
-
 }
