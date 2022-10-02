@@ -12,7 +12,7 @@ public class Delivery : MonoBehaviour
     private void Update()
     {
         if (thisHouse)
-            timer += Time.fixedDeltaTime;
+            timer += Time.deltaTime;
         
         if (timer > 10f)
             thisHouse = false;

@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("UI")] 
+    public Image staminaBar;
+    
     [Header("Move")]
     public float moveSpeed = 500;
     public float sprintSpeed;
@@ -15,10 +19,9 @@ public class PlayerMovement : MonoBehaviour
     public float regainSprintTime;
     public float sprintTime;
     private float _sprintTime;
-    public bool canSprint;
 
 
-    private bool sprintTimer = false;
+    private bool sprintGoing = false;
     private CharacterController _characterController;
 
 
@@ -34,13 +37,13 @@ public class PlayerMovement : MonoBehaviour
         speed = moveSpeed;
         _characterController = GetComponent<CharacterController>();
     }
-
-
+    
     void Update()
     {
         GetInput();
         Rotate();
         SprintTimer();
+        StaminaFill();
         _characterController.Move(moveVelocity * Time.deltaTime);
     }
 
@@ -48,15 +51,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            sprintTimer = true;
+            sprintGoing = true;
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift) && sprintTimer)
+        if (Input.GetKeyUp(KeyCode.LeftShift) && sprintGoing)
         {
             speed = moveSpeed;
-            canSprint = true;
-            sprintTimer = false;
+            sprintGoing = false;
         }
-
         moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), gravity, Input.GetAxisRaw("Vertical"));
         moveVelocity = moveInput.normalized * speed;
         rotation = new Vector3(moveInput.x, 0, moveInput.z);
@@ -64,20 +65,26 @@ public class PlayerMovement : MonoBehaviour
 
     private void SprintTimer() 
     {
-        if (sprintTimer)
+        if (sprintGoing)
         {
             if (_sprintTime > 0)
             {
                 _sprintTime -= Time.deltaTime;
                 speed = sprintSpeed;
-                canSprint = false;
             }
             else
             {
                 speed = moveSpeed;
-                StartCoroutine(SpringReplenish());
             }
         }
+        
+        if(_sprintTime < sprintTime && speed == moveSpeed)
+            _sprintTime += Time.deltaTime / regainSprintTime;
+    }
+
+    private void StaminaFill()
+    {
+        staminaBar.fillAmount = _sprintTime / sprintTime;
     }
 
     private void Rotate()
@@ -89,13 +96,5 @@ public class PlayerMovement : MonoBehaviour
                 newRotation, Time.fixedDeltaTime * rotationSpeed);
         }
     }
-
-    private IEnumerator SpringReplenish()
-    {
-        yield return new WaitForSecondsRealtime(regainSprintTime);
-        _sprintTime = sprintTime;
-        
-        canSprint = true;
-        sprintTimer = false;
-    }
+    
 }
