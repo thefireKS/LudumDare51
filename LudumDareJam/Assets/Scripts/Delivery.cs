@@ -9,7 +9,7 @@ public class Delivery : MonoBehaviour
     [SerializeField] private GameObject ExclamationPoint;
     private bool thisHouse = false;
     private float timer = 0f;
-    private void FixedUpdate()
+    private void Update()
     {
         if (thisHouse)
             timer += Time.fixedDeltaTime;

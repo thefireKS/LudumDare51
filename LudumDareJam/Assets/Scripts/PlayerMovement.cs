@@ -4,29 +4,35 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Move")]
     public float moveSpeed = 500;
+    public float sprintSpeed;
+    private float speed;
+    
     public float rotationSpeed;
-    public float dashForce;
+    public float gravity;
+    [Header("Sprint")]
+    public float regainSprintTime;
+    public float sprintTime;
+    private float _sprintTime;
+    public bool canSprint;
 
-    public float dashAmount;
-    public float dashTime;
-    private float _dashTime;
-    public bool canDash;
 
-    private bool dashTimer = false;
-    private Rigidbody rb;
+    private bool sprintTimer = false;
+    private CharacterController _characterController;
 
 
     private Vector3 moveInput;
     private Vector3 moveVelocity;
-    private Vector3 lastDir;
+    private Vector3 rotation;
 
     public GameObject visuals;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        _dashTime = dashTime;
+        _sprintTime = sprintTime;
+        speed = moveSpeed;
+        _characterController = GetComponent<CharacterController>();
     }
 
 
@@ -34,68 +40,62 @@ public class PlayerMovement : MonoBehaviour
     {
         GetInput();
         Rotate();
-        DashTimer();
-    }
-
-    private void FixedUpdate()
-    {
-        Move();
+        SprintTimer();
+        _characterController.Move(moveVelocity * Time.deltaTime);
     }
 
     private void GetInput()
     {
-        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput.normalized * moveSpeed;
-
-        if (moveInput.magnitude != 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            lastDir = moveInput;
+            sprintTimer = true;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift) && sprintTimer)
+        {
+            speed = moveSpeed;
+            canSprint = true;
+            sprintTimer = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            dashTimer = true;
-        }
-
-    }
-    private void Dash()
-    {
-        dashAmount--;
-        rb.velocity = Vector3.zero;
-        rb.AddForce(lastDir * dashForce, ForceMode.Impulse);
-        canDash = false; 
+        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), gravity, Input.GetAxisRaw("Vertical"));
+        moveVelocity = moveInput.normalized * speed;
+        rotation = new Vector3(moveInput.x, 0, moveInput.z);
     }
 
-    private void DashTimer() 
+    private void SprintTimer() 
     {
-        if (dashTimer)
+        if (sprintTimer)
         {
-            if (_dashTime > 0)
+            if (_sprintTime > 0)
             {
-                _dashTime -= Time.deltaTime;
-                Dash();
+                _sprintTime -= Time.deltaTime;
+                speed = sprintSpeed;
+                canSprint = false;
             }
             else
             {
-                _dashTime = dashTime;
-                canDash = true;
-                dashTimer = false;
+                speed = moveSpeed;
+                StartCoroutine(SpringReplenish());
             }
         }
-    }
-
-    private void Move()
-    {
-        rb.velocity = moveVelocity * Time.fixedDeltaTime;
     }
 
     private void Rotate()
     {
-        Quaternion newRotation = Quaternion.LookRotation(moveVelocity, Vector3.up);
+        Quaternion newRotation = Quaternion.LookRotation(rotation, Vector3.up);
         if (moveVelocity.magnitude > 0)
         {
             visuals.transform.rotation = Quaternion.Lerp(visuals.transform.rotation,
                 newRotation, Time.fixedDeltaTime * rotationSpeed);
         }
+    }
+
+    private IEnumerator SpringReplenish()
+    {
+        yield return new WaitForSecondsRealtime(regainSprintTime);
+        _sprintTime = sprintTime;
+        
+        canSprint = true;
+        sprintTimer = false;
     }
 }
