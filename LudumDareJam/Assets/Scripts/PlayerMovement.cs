@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
         _sprintTime = sprintTime;
         speed = moveSpeed;
         _characterController = GetComponent<CharacterController>();
@@ -78,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         
-        if(_sprintTime < sprintTime && speed == moveSpeed)
+        if(_sprintTime < sprintTime)
             _sprintTime += Time.deltaTime / regainSprintTime;
     }
 

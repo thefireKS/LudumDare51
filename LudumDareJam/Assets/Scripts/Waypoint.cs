@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour
 {
-    public GameObject[] houseWaypoints;
     public Transform currentPoint;
 
     public GameObject arrow;
@@ -16,7 +15,6 @@ public class Waypoint : MonoBehaviour
 
     public void SetNewPoint(Transform housePos)
     {
-        int randomPoint = Random.Range(0, houseWaypoints.Length);
         currentPoint = housePos;
     }
 

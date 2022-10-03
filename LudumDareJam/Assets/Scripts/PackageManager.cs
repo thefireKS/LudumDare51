@@ -25,6 +25,8 @@ public class PackageManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI finalScoreText;
     
     private int score;
+    private int previousPackageRand = 0;
+    private int previousHouseRand = 0;
     private float timer;
     private float overAllTime;
 
@@ -55,7 +57,14 @@ public class PackageManager : MonoBehaviour
 
     private void PackageRoll()
     {
-        int current = Random.Range(0, Mathf.Min(packageImages.Length, itemInHands.Length));
+        int current = Random.Range(0, Mathf.Min(packageImages.Length, itemInHands.Length));;
+        if (previousPackageRand == current)
+        {
+            PackageRoll();
+            return;
+        }
+        
+        previousPackageRand = current;
 
         currentImage.sprite = packageImages[current];
 
@@ -68,6 +77,14 @@ public class PackageManager : MonoBehaviour
     private void HouseRoll()
     {
         int current = Random.Range(0, houses.Length);
+        if (previousHouseRand == current)
+        {
+            HouseRoll();
+            return;
+        }
+        
+        previousHouseRand = current;
+        
         houses[current].GetComponent<Delivery>().Selected();
         playerPointArrow.SetNewPoint(houses[current].transform);
     }
