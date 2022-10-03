@@ -19,6 +19,7 @@ public class PackageManager : MonoBehaviour
     [SerializeField] private GameObject[] itemInHands;
     [SerializeField] private GameObject[] houses;
     [SerializeField] private Image currentImage;
+    [SerializeField] private Image coolDownBar;
     [Header("Text fields")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI timeText;
@@ -31,6 +32,8 @@ public class PackageManager : MonoBehaviour
     private float overAllTime;
 
     private string minutes, seconds;
+
+    public GameObject currentObjectInHands;
 
     private void Start()
     {
@@ -53,6 +56,8 @@ public class PackageManager : MonoBehaviour
         
         if(overAllTime > 180f)
             GameEnd();
+
+        coolDownBar.fillAmount = (10 - timer) / 10f;
     }
 
     private void PackageRoll()
@@ -72,6 +77,10 @@ public class PackageManager : MonoBehaviour
             itemInHands[i].SetActive(false);
         
         itemInHands[current].SetActive(true);
+
+        currentObjectInHands = itemInHands[current];
+        
+        Debug.Log(currentObjectInHands.GetComponent<Item>().itemToThrow);
     }
 
     private void HouseRoll()

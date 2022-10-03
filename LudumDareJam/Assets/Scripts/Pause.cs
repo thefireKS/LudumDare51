@@ -28,6 +28,6 @@ public class Pause : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("fireKS F"); //Redo that to main or something later
+        SceneManager.LoadScene("Level"); //Redo that to main or something later
     }
 }
