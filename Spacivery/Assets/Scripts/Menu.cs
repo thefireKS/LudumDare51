@@ -13,8 +13,8 @@ public class Menu : MonoBehaviour
         Time.timeScale = 1f;
         highscoreText.text = "Highscore: " + PlayerPrefs.GetInt("HighScore", 0);
     }
-    public void StartScene()
+    public void StartScene(string SceneName)
     {
-        SceneManager.LoadScene("Level");
+        SceneManager.LoadScene(SceneName);
     }
 }
