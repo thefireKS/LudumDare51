@@ -1,50 +1,57 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Respawn")] 
-    public Transform respawnPosition;
+    [SerializeField] private Transform respawnPosition;
 
     [Header("Move")] 
-    public Animator anim;
-    public float moveSpeed = 500;
+    [SerializeField] private Animator anim;
+    [SerializeField] private float moveSpeed = 500;
 
-    public float rotationSpeed;
-    public float gravity;
+    [Header("Rotation")]
+    [SerializeField] private float rotationSpeed; 
+    [SerializeField] private GameObject player_GFX;
     
-    private CharacterController _characterController;
-
-    private Vector3 moveInput;
+    private Vector2 moveInput;
     private Vector3 moveVelocity;
     private Vector3 rotation;
-
-    public GameObject visuals;
-
-    void Start()
+    
+    private Rigidbody rigidbody;
+    
+    private void Start()
     {
         Time.timeScale = 1f;
-        _characterController = GetComponent<CharacterController>();
+
+        rigidbody = GetComponent<Rigidbody>();
     }
     
-    void Update()
+    private void Update()
     {
-        GetInput();
         Rotate();
-        _characterController.Move(moveVelocity * Time.deltaTime);
     }
 
-    private void GetInput()
+    private void FixedUpdate()
     {
-        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), gravity, Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput.normalized * moveSpeed;
+        rigidbody.velocity = new Vector3(moveVelocity.x * Time.fixedDeltaTime, rigidbody.velocity.y,moveVelocity.z * Time.fixedDeltaTime);
+    }
+
+    public void GetInput(InputAction.CallbackContext _callbackContext)
+    {
+        moveInput = _callbackContext.ReadValue<Vector2>();
+        var input = moveInput.normalized;
+        moveVelocity = new Vector3(input.x,0, input.y) * moveSpeed;
         
-        if(Input.GetAxisRaw("Horizontal") != 0f || Input.GetAxisRaw("Vertical") != 0f)
+        if (input != Vector2.zero)
+        {
             anim.SetBool("Walk",true);
+            rotation = new Vector3(input.x, 0, input.y);
+        }
         else
             anim.SetBool("Walk",false);
-        
-        if(moveInput.x != 0 || moveInput.z != 0)
-            rotation = new Vector3(moveInput.x, 0, moveInput.z);
     }
 
     private void Rotate()
@@ -52,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         Quaternion newRotation = Quaternion.LookRotation(rotation, Vector3.up);
         if (moveVelocity.magnitude > 0)
         {
-            visuals.transform.rotation = Quaternion.Lerp(visuals.transform.rotation,
+            player_GFX.transform.rotation = Quaternion.Lerp(player_GFX.transform.rotation,
                 newRotation, Time.fixedDeltaTime * rotationSpeed);
         }
     }
