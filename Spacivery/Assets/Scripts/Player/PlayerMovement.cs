@@ -20,13 +20,13 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveVelocity;
     private Vector3 rotation;
     
-    private Rigidbody rigidbody;
+    private Rigidbody _rigidbody;
     
     private void Start()
     {
         Time.timeScale = 1f;
 
-        rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
     
     private void Update()
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody.velocity = new Vector3(moveVelocity.x * Time.fixedDeltaTime, rigidbody.velocity.y,moveVelocity.z * Time.fixedDeltaTime);
+        _rigidbody.velocity = new Vector3(moveVelocity.x * Time.fixedDeltaTime, _rigidbody.velocity.y,moveVelocity.z * Time.fixedDeltaTime);
     }
 
     public void GetInput(InputAction.CallbackContext _callbackContext)

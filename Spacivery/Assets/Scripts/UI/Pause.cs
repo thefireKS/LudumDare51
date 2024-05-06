@@ -1,25 +1,31 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
-    private void Update()
+
+    private void Start() => PlayerInputManager.playerControls.Default.Pause.started += OpenPauseMenu;
+    private void OnDisable() => PlayerInputManager.playerControls.Default.Pause.started -= OpenPauseMenu;
+
+    private void OpenPauseMenu(InputAction.CallbackContext callbackContext)
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (pausePanel.activeSelf)
         {
-            Time.timeScale = 0f;
-            pausePanel.SetActive(true);
+            Continue();
+            return;
         }
+        Time.timeScale = 0f;
+        pausePanel.SetActive(true);
     }
     public void Continue()
     {
         Time.timeScale = 1f;
+        pausePanel.SetActive(false);
     }
+    
     public void MainMenu()
     {
         Time.timeScale = 1f;
