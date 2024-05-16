@@ -5,13 +5,13 @@ public class OxygenItem : Collectable
 {
     [SerializeField] private float oxygenAmount;
     
-    public static Action<float> addOxygen;
+    public static Action<float> AddOxygen;
 
     private void OnTriggerEnter(Collider collided)
     {
         if (!collided.CompareTag("Player")) return;
         
-        addOxygen?.Invoke(oxygenAmount);
+        AddOxygen?.Invoke(oxygenAmount);
         addScore?.Invoke(scoreAmount);
         Destroy(gameObject);
     }

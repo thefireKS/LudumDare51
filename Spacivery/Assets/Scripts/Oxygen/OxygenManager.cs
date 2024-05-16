@@ -26,13 +26,13 @@ public class OxygenManager : MonoBehaviour
     {
         timer = oxygenTime;
 
-        OxygenItem.addOxygen += OxygenCollected;
+        OxygenItem.AddOxygen += OxygenCollected;
         Collectable.addScore += AddScoreOnCollectableCollected;
     }
 
     private void OnDisable()
     {
-        OxygenItem.addOxygen -= OxygenCollected;
+        OxygenItem.AddOxygen -= OxygenCollected;
         Collectable.addScore -= AddScoreOnCollectableCollected;
     }
 

@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Move")] 
     [SerializeField] private Animator anim;
-    [SerializeField] private float moveSpeed = 500;
+    [SerializeField] public float moveSpeed = 500;
 
     [Header("Rotation")]
     [SerializeField] private float rotationSpeed; 
