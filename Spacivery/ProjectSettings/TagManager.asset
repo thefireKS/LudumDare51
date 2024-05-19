@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - FallingZone
-  - DogToy
-  - DOG
+  - Dog
+  - DogHouse
   layers:
   - Default
   - TransparentFX
@@ -14,8 +14,8 @@ TagManager:
   - Ignore NavMesh
   - Water
   - UI
-  - DOG
-  - PLAYER
+  - 
+  - Player
   - 
   - 
   - 

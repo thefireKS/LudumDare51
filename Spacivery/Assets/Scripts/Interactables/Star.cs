@@ -6,7 +6,7 @@ public class Star : Collectable
     {
         if (!collided.CompareTag("Player")) return;
         
-        addScore?.Invoke(scoreAmount);
+        AddScore?.Invoke(scoreAmount);
         Destroy(gameObject);
     }
 }

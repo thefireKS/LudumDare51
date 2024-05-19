@@ -4865,7 +4865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5fda2ad3141b29a4581e8f8fb34088f6, type: 3}
       propertyPath: m_Name
-      value: Dog
+      value: Dog Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1804727054442932721, guid: 5fda2ad3141b29a4581e8f8fb34088f6, type: 3}
       propertyPath: m_Materials.Array.data[0]

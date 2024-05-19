@@ -12,9 +12,7 @@ public class OxygenItem : Collectable
         if (!collided.CompareTag("Player")) return;
         
         AddOxygen?.Invoke(oxygenAmount);
-        addScore?.Invoke(scoreAmount);
+        AddScore?.Invoke(scoreAmount);
         Destroy(gameObject);
     }
-
-    
 }
