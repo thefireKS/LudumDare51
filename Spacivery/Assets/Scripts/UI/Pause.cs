@@ -7,10 +7,15 @@ public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
 
-    private void Start() => PlayerInputManager.playerControls.Default.Pause.started += OpenPauseMenu;
-    private void OnDisable() => PlayerInputManager.playerControls.Default.Pause.started -= OpenPauseMenu;
+    private void Start() => PlayerInputManager.playerControls.Default.Pause.started += OpenPauseMenuAction;
+    private void OnDisable() => PlayerInputManager.playerControls.Default.Pause.started -= OpenPauseMenuAction;
 
-    private void OpenPauseMenu(InputAction.CallbackContext callbackContext)
+    private void OpenPauseMenuAction(InputAction.CallbackContext callbackContext)
+    {
+        OpenPauseMenu();
+    }
+
+    public void OpenPauseMenu()
     {
         if (pausePanel.activeSelf)
         {
