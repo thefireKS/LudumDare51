@@ -41,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void GetInput(InputAction.CallbackContext _callbackContext)
     {
+        if(Time.timeScale == 0f) return;
+        
         moveInput = _callbackContext.ReadValue<Vector2>();
         var input = moveInput.normalized;
         moveVelocity = new Vector3(input.x,0, input.y) * moveSpeed;

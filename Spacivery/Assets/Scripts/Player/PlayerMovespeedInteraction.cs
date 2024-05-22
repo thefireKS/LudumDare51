@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovespeedInteraction : MonoBehaviour
@@ -20,20 +18,19 @@ public class PlayerMovespeedInteraction : MonoBehaviour
     
     private void ChangeSpeedTimedEffect(float percentage, float effectTime)
     {
-        ChangeSpeed(percentage);
-        StartCoroutine(ChangedSpeedCoroutine(effectTime));
+        StartCoroutine(ChangedSpeedCoroutine(percentage, effectTime));
     }
 
-    private IEnumerator ChangedSpeedCoroutine(float effectTime)
+    private IEnumerator ChangedSpeedCoroutine(float percentage, float effectTime)
     {
+        ChangeSpeed(percentage);
         yield return new WaitForSeconds(effectTime);
-        ChangeSpeedToDefault();
+        ChangeSpeed(-1f * percentage);
     }
 
     public void ChangeSpeed(float percentage)
     {
-        playerMovement.moveSpeed *= (percentage + 100f) / 100f;
-        Debug.Log(playerMovement.moveSpeed);
+        playerMovement.moveSpeed += defaultPlayerSpeed * ((percentage + 100f) / 100f) - defaultPlayerSpeed;
     }
 
     public void ChangeSpeedToDefault()

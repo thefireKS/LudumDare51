@@ -21,7 +21,7 @@ public class SpeedSwamp : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        playerMoveSpeed?.ChangeSpeedToDefault();
+        playerMoveSpeed?.ChangeSpeed(-1f * speedBonusPercentage);
         Debug.Log("Speed is no longer affected");
     }
 }

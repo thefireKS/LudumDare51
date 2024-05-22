@@ -6,7 +6,8 @@ public class PlayerDogCarrying : MonoBehaviour
     [SerializeField] private GameObject dogCartObject;
     
     public static bool hasDog = false;
-
+    private float lastDogSlowDown = 0;
+    
     private PlayerMovespeedInteraction playerMoveSpeedInteraction;
 
     private void Start()
@@ -36,6 +37,8 @@ public class PlayerDogCarrying : MonoBehaviour
     {
         hasDog = true;
         dogCartObject.SetActive(true);
+
+        lastDogSlowDown = dogSlowdown;
         
         playerMoveSpeedInteraction.ChangeSpeed(dogSlowdown);
     }
@@ -45,6 +48,6 @@ public class PlayerDogCarrying : MonoBehaviour
         hasDog = false;
         dogCartObject.SetActive(false);
         
-        playerMoveSpeedInteraction.ChangeSpeedToDefault();
+        playerMoveSpeedInteraction.ChangeSpeed(-1f * lastDogSlowDown);
     }
 }
