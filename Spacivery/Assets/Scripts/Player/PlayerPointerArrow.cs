@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,7 +12,17 @@ public class PlayerPointerArrow : MonoBehaviour
     private Vector3 currentPoint;
     
     private List<Transform> oxygenPoints;
+
+    private void OnEnable()
+    {
+        InteractablesSpawningManager.AddOxygenToPointerList += AddNewOxygenToList;
+    }
     
+    private void OnDisable()
+    {
+        InteractablesSpawningManager.AddOxygenToPointerList -= AddNewOxygenToList;
+    }
+
     private void Start()
     {
         oxygenPoints = new List<Transform>();
@@ -25,7 +36,7 @@ public class PlayerPointerArrow : MonoBehaviour
         maxIndex = _lastDistanceIndex + oxygenPoints.Count * 2;
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         RotateArrow();
     }
@@ -33,6 +44,11 @@ public class PlayerPointerArrow : MonoBehaviour
     private void UpdateList()
     {
         oxygenPoints = oxygenPoints.Where(o => o != null).ToList();
+    }
+
+    private void AddNewOxygenToList(Transform newOxygenTransform)
+    {
+        oxygenPoints.Add(newOxygenTransform);
     }
 
     private void RotateArrow()

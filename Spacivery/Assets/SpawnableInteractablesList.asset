@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fc06b3c66cd5a4a9ab52adb870992b, type: 3}
+  m_Name: SpawnableInteractablesList
+  m_EditorClassIdentifier: 
+  oxygenInteractable: {fileID: 9053581996933894541, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
+  starInteractable: {fileID: 0}
+  scoreToSpawnStar: 0
+  timeToSpawnStar: 0
+  maxAmountOfStars: 0
+  speedBoostInteractable: {fileID: 0}
+  scoreToSpawnSpeedBoost: 0
+  timeToSpawnSpeedBoost: 0
+  maxAmountOfSpeedBoosts: 0
+  slowBoostInteractable: {fileID: 0}
+  scoreToSpawnSlowBoost: 0
+  timeToSpawnSlowBoost: 0
+  maxAmountOfSlowBoosts: 0
+  swampInteractable: {fileID: 0}
+  scoreToSpawnwamp: 0
+  timeToSpawnwamp: 0
+  maxAmountOfSwamps: 0
+  dogInteractable: {fileID: 0}
+  dogHouseInteractable: {fileID: 0}
+  scoreToSpawnDogAndDogHouse: 0
+  maxAmountOfDogsAndDogHouses: 0

@@ -1,7 +1,8 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-public class OxygenManager : MonoBehaviour
+public class OxygenAndPointsManager : MonoBehaviour
 {
     [Header("UI objects")]
     [SerializeField] private GameObject EndGameMenu;
@@ -19,7 +20,22 @@ public class OxygenManager : MonoBehaviour
     [Header("Specials")] 
     [Range(0,1)] [SerializeField] private float extraLastTimeSlowDown;
 
-    private int score;
+    public static Action<int> ScoreChanged;
+    
+    private int _score;
+    private int score
+    {
+        get
+        {
+            return _score;
+        }
+        set
+        {
+            _score = value;
+            ScoreChanged?.Invoke(_score);
+        }
+    }
+    
     private float timer;
 
     private void OnEnable()
