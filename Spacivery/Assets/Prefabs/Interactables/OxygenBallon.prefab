@@ -46,8 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7fa3d6d860d2544b6765b892eab189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxygenAmount: 10
-  scoreAmount: 5
+  itemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
 --- !u!65 &9053581996933894576
 BoxCollider:
   m_ObjectHideFlags: 0

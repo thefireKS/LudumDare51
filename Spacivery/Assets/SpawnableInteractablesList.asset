@@ -12,24 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1fc06b3c66cd5a4a9ab52adb870992b, type: 3}
   m_Name: SpawnableInteractablesList
   m_EditorClassIdentifier: 
+  minSpawnDistance: 750
+  maxSpawnDistance: 12000
   oxygenInteractable: {fileID: 9053581996933894541, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
-  starInteractable: {fileID: 0}
-  scoreToSpawnStar: 0
-  timeToSpawnStar: 0
-  maxAmountOfStars: 0
-  speedBoostInteractable: {fileID: 0}
-  scoreToSpawnSpeedBoost: 0
-  timeToSpawnSpeedBoost: 0
-  maxAmountOfSpeedBoosts: 0
-  slowBoostInteractable: {fileID: 0}
-  scoreToSpawnSlowBoost: 0
-  timeToSpawnSlowBoost: 0
-  maxAmountOfSlowBoosts: 0
-  swampInteractable: {fileID: 0}
-  scoreToSpawnwamp: 0
-  timeToSpawnwamp: 0
-  maxAmountOfSwamps: 0
-  dogInteractable: {fileID: 0}
-  dogHouseInteractable: {fileID: 0}
-  scoreToSpawnDogAndDogHouse: 0
-  maxAmountOfDogsAndDogHouses: 0
+  starInteractable: {fileID: 7645429426731494207, guid: f14dfc8869fa2414e830ba62c917ca5a, type: 3}
+  scoreToSpawnStar: 5
+  timeToSpawnStar: 30
+  maxAmountOfStars: 3
+  speedBoostInteractable: {fileID: 8274058486175439996, guid: 815f9c2c691372f4890d2a19e4a0c823, type: 3}
+  scoreToSpawnSpeedBoost: 20
+  timeToSpawnSpeedBoost: 10
+  maxAmountOfSpeedBoosts: 3
+  slowBoostInteractable: {fileID: 3917956501474750477, guid: e92955cc70f4bf94c86a324c942dcfa9, type: 3}
+  scoreToSpawnSlowBoost: 20
+  timeToSpawnSlowBoost: 10
+  maxAmountOfSlowBoosts: 2
+  swampInteractable: {fileID: 7905043287757611791, guid: 81af9b59ea0e4d94fb513f61d5edd047, type: 3}
+  scoreToSpawnSwamp: 50
+  timeToSpawnSwamp: 60
+  maxAmountOfSwamps: 4
+  dogInteractable: {fileID: 8247389719510296617, guid: 38c6472ad22dd424f9764e18850bfff7, type: 3}
+  dogHouseInteractable: {fileID: 7158077250842981266, guid: 51ad47b34b474b745b2a38814539a34c, type: 3}
+  scoreToSpawnDogAndDogHouse: 100
+  maxAmountOfDogsAndDogHouses: 1

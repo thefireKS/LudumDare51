@@ -12,13 +12,9 @@ public class OxygenAndPointsManager : MonoBehaviour
     [Header("Text fields")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI finalScoreText;
-    
-    [Header("Player related")]
-    [SerializeField] private float oxygenTime;
-    [SerializeField] private float maximumOxygenTime;
 
-    [Header("Specials")] 
-    [Range(0,1)] [SerializeField] private float extraLastTimeSlowDown;
+    [Header("Player related")] [SerializeField]
+    private PlayerParameters playerParameters;
 
     public static Action<int> ScoreChanged;
     
@@ -40,7 +36,7 @@ public class OxygenAndPointsManager : MonoBehaviour
 
     private void OnEnable()
     {
-        timer = oxygenTime;
+        timer = playerParameters.oxygenTime;
 
         OxygenItem.AddOxygen += OxygenCollected;
         Collectable.AddScore += AddScoreOnCollectableCollected;
@@ -57,22 +53,22 @@ public class OxygenAndPointsManager : MonoBehaviour
         if (timer > 3f)
             timer -= Time.deltaTime;
         else
-            timer -= Time.deltaTime * extraLastTimeSlowDown;
+            timer -= Time.deltaTime * playerParameters.extraLastTimeSlowDown;
         
         if (timer <= 0f)
             GameEnd();
 
-        oxygenLeftBar.fillAmount = timer / maximumOxygenTime;
+        oxygenLeftBar.fillAmount = timer / playerParameters.maximumOxygenTime;
         scoreText.text = "SCORE: " + score;
     }
     
     private void OxygenCollected(float oxygenGivenTime)
     {
         timer += oxygenGivenTime;
-        if (timer > maximumOxygenTime)
-            timer = maximumOxygenTime;
+        if (timer > playerParameters.maximumOxygenTime)
+            timer = playerParameters.maximumOxygenTime;
     }
-
+    
     private void AddScoreOnCollectableCollected(int scoreGiven)
     {
         score += scoreGiven;

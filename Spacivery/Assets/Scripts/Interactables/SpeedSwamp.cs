@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class SpeedSwamp : MonoBehaviour
 {
-    [SerializeField] private float speedBonusPercentage;
+    [SerializeField] private InteractableItemsParameters itemsParameters;
+
     private PlayerMovespeedInteraction playerMoveSpeed;
 
     private void OnEnable()
@@ -15,13 +16,13 @@ public class SpeedSwamp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        playerMoveSpeed?.ChangeSpeed(speedBonusPercentage);
+        playerMoveSpeed?.ChangeSpeed(itemsParameters.swampSpeedBonusPercentage);
         Debug.Log("Speed affected");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        playerMoveSpeed?.ChangeSpeed(-1f * speedBonusPercentage);
+        playerMoveSpeed?.ChangeSpeed(-1f * itemsParameters.swampSpeedBonusPercentage);
         Debug.Log("Speed is no longer affected");
     }
 }

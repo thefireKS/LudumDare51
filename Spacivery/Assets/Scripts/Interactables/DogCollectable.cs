@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class DogCollectable : MonoBehaviour
 {
-    [SerializeField] private float speedBonusPercentage;
-
+    [SerializeField] private InteractableItemsParameters itemsParameters;
+    
     public static Action <float> DogWasTaken;
     public static Action DogWasTakenNotification;
 
@@ -12,7 +12,7 @@ public class DogCollectable : MonoBehaviour
     {
         if (!collided.CompareTag("Player")) return;
         
-        DogWasTaken?.Invoke(speedBonusPercentage);
+        DogWasTaken?.Invoke(itemsParameters.dogSpeedBonusPercentage);
         DogWasTakenNotification?.Invoke();
         Destroy(gameObject);
     }

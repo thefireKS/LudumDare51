@@ -10,11 +10,15 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Move")] 
     [SerializeField] private Animator anim;
-    [SerializeField] public float moveSpeed = 500;
 
+    [Header("Parameters")] [SerializeField]
+    private PlayerParameters playerParameters;
+    
     [Header("Rotation")]
-    [SerializeField] private float rotationSpeed; 
     [SerializeField] private GameObject player_GFX;
+
+    [HideInInspector] 
+    public float moveSpeed;
     
     private Vector2 moveInput;
     private Vector3 moveVelocity;
@@ -25,7 +29,9 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1f;
-
+        
+        moveSpeed = playerParameters.moveSpeed;
+        
         _rigidbody = GetComponent<Rigidbody>();
     }
     
@@ -62,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveVelocity.magnitude > 0)
         {
             player_GFX.transform.rotation = Quaternion.Lerp(player_GFX.transform.rotation,
-                newRotation, Time.fixedDeltaTime * rotationSpeed);
+                newRotation, Time.fixedDeltaTime * playerParameters.rotationSpeed);
         }
     }
     

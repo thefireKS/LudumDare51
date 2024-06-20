@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9c1a38406cfa74da204a5858c9d2f0, type: 3}
+  m_Name: InteractableItemsParameters
+  m_EditorClassIdentifier: 
+  oxygenAmount: 10
+  scoreOnOxygenCollected: 5
+  scoreOnStarCollected: 20
+  positiveSpeedBonusPercentage: 33
+  positiveSpeedBonusTime: 10
+  negativeSpeedBonusPercentage: -33
+  negativeSpeedBonusTime: 7
+  swampSpeedBonusPercentage: -50
+  dogSpeedBonusPercentage: -25
+  scoreOnDogDelivery: 50

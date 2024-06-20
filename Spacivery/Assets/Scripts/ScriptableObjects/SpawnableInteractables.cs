@@ -5,36 +5,40 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SpawnableInteractablesList", menuName = "ScriptableObjects/SpawnableInteractables")]
 public class SpawnableInteractables : ScriptableObject
 {
-    [Header("Oxygen")] [SerializeField]
+    [Header("Spawn distance")] 
+    [Min(0.1f)]public float minSpawnDistance;
+    public float maxSpawnDistance;
+    
+    [Space(5)][Header("Oxygen")]
     public GameObject oxygenInteractable;
     
-    [Space(5)] [Header("Star")] [SerializeField]
+    [Space(5)] [Header("Star")] 
     public GameObject starInteractable;
-    [SerializeField] public int scoreToSpawnStar;
-    [SerializeField] public float timeToSpawnStar;
-    [SerializeField] public int maxAmountOfStars;
+    public int scoreToSpawnStar;
+    public float timeToSpawnStar;
+    public int maxAmountOfStars;
     
-    [Space(5)] [Header("Speed boost")] [SerializeField]
+    [Space(5)] [Header("Speed boost")]     
     public GameObject speedBoostInteractable;
-    [SerializeField] public int scoreToSpawnSpeedBoost;
-    [SerializeField] public float timeToSpawnSpeedBoost;
-    [SerializeField] public int maxAmountOfSpeedBoosts;
+    public int scoreToSpawnSpeedBoost;
+    public float timeToSpawnSpeedBoost;
+    public int maxAmountOfSpeedBoosts;
     
-    [Space(5)] [Header("Slow boost")] [SerializeField]
+    [Space(5)] [Header("Slow boost")]     
     public GameObject slowBoostInteractable;
-    [SerializeField] public int scoreToSpawnSlowBoost;
-    [SerializeField] public float timeToSpawnSlowBoost;
-    [SerializeField] public int maxAmountOfSlowBoosts;
+    public int scoreToSpawnSlowBoost;
+    public float timeToSpawnSlowBoost;
+    public int maxAmountOfSlowBoosts;
     
-    [Space(5)] [Header("Swamp")] [SerializeField]
+    [Space(5)] [Header("Swamp")]     
     public GameObject swampInteractable;
-    [SerializeField] public int scoreToSpawnwamp;
-    [SerializeField] public float timeToSpawnwamp;
-    [SerializeField] public int maxAmountOfSwamps;
+    public int scoreToSpawnSwamp;
+    public float timeToSpawnSwamp;
+    public int maxAmountOfSwamps;
 
     [Space(5)] [Header("Dog and Doghouse")] 
-    [SerializeField] public GameObject dogInteractable;
-    [SerializeField] public GameObject dogHouseInteractable;
-    [SerializeField] public int scoreToSpawnDogAndDogHouse;
-    [SerializeField] public int maxAmountOfDogsAndDogHouses;
+    public GameObject dogInteractable;
+    public GameObject dogHouseInteractable;
+    public int scoreToSpawnDogAndDogHouse;
+    public int maxAmountOfDogsAndDogHouses;
 }

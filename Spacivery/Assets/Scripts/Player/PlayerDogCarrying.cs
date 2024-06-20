@@ -24,7 +24,7 @@ public class PlayerDogCarrying : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(hasDog);
+        //Debug.Log(hasDog);
     }
 
     private void OnDisable()
