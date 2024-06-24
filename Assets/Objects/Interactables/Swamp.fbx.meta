@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b17a45815029ede4b91d9f5916574083
+guid: bbac356d701ae7b4f8342b7b1064ef3a
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,33 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mtl_1
-    second: {fileID: 2100000, guid: 392354a6585250749be2a735d8a39282, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_2
-    second: {fileID: 2100000, guid: b6c4896ef0e1cfe4eb746d73658e0254, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_3
-    second: {fileID: 2100000, guid: dbb7b34ccd2bf6f4da5818fc05cba735, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_4
-    second: {fileID: 2100000, guid: 11f9443243f0830429f609ac0a92e14f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_5
-    second: {fileID: 2100000, guid: 98629cefda52cc341bcbef0edb2f9977, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_6
-    second: {fileID: 2100000, guid: f087f3eafa464c34ea852c3364838186, type: 2}
+      name: custom1(Clone)
+    second: {fileID: 2100000, guid: 3916fd10a2f42514896a3e3e081d21f3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

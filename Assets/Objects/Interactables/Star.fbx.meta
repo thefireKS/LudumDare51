@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b17a45815029ede4b91d9f5916574083
+guid: d50f6e2aaa238f74da0166befcf450d5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,33 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mtl_1
-    second: {fileID: 2100000, guid: 392354a6585250749be2a735d8a39282, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_2
-    second: {fileID: 2100000, guid: b6c4896ef0e1cfe4eb746d73658e0254, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_3
-    second: {fileID: 2100000, guid: dbb7b34ccd2bf6f4da5818fc05cba735, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_4
-    second: {fileID: 2100000, guid: 11f9443243f0830429f609ac0a92e14f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_5
-    second: {fileID: 2100000, guid: 98629cefda52cc341bcbef0edb2f9977, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mtl_6
-    second: {fileID: 2100000, guid: f087f3eafa464c34ea852c3364838186, type: 2}
+      name: Star
+    second: {fileID: 2100000, guid: 7770257ecb64b2f41ac83203fb64475e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -65,7 +40,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 5
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -119,7 +94,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.049999997
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

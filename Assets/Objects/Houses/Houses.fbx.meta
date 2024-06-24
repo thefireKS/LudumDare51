@@ -3,7 +3,47 @@ guid: 88538313c5026364e8454deafa6a0259
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 4f32017a631dead49b301fc2eea3f585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_1
+    second: {fileID: 2100000, guid: b373af860b4da474281c99fe1beefcb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_2
+    second: {fileID: 2100000, guid: e20fd448f57d55740827cfecfc26fab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_3
+    second: {fileID: 2100000, guid: 316b1c5fd65566e41a8b034b24d5442c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_4
+    second: {fileID: 2100000, guid: 00986ee05d355ed4d829747bc397ff5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_5
+    second: {fileID: 2100000, guid: 6fafc0e6d86d6b445939e2496ced126b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_6
+    second: {fileID: 2100000, guid: 5c63a8a5e3eb2b54e94246e05b94110f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl_8
+    second: {fileID: 2100000, guid: c48f2a422ff94e34eb613cc7af0553e2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -67,6 +107,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

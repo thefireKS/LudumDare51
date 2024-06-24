@@ -4228,7 +4228,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: dbb7b34ccd2bf6f4da5818fc05cba735, type: 2}
   - {fileID: 2100000, guid: 7362b78139f6c464b93827eb50a01b50, type: 2}
   - {fileID: 2100000, guid: dac7c115dceeccb40b410ff273500768, type: 2}
-  - {fileID: 1238868653306084124, guid: c767afd7e25151d4f84b3223fbc2fa12, type: 3}
+  - {fileID: 2100000, guid: 7770257ecb64b2f41ac83203fb64475e, type: 2}
   - {fileID: 2100000, guid: f087f3eafa464c34ea852c3364838186, type: 2}
   - {fileID: 2100000, guid: 635e032900544824b8d393fa07f46f2d, type: 2}
   m_StaticBatchInfo:
@@ -12930,7 +12930,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: dbb7b34ccd2bf6f4da5818fc05cba735, type: 2}
   - {fileID: 2100000, guid: 7362b78139f6c464b93827eb50a01b50, type: 2}
   - {fileID: 2100000, guid: dac7c115dceeccb40b410ff273500768, type: 2}
-  - {fileID: 1238868653306084124, guid: c767afd7e25151d4f84b3223fbc2fa12, type: 3}
+  - {fileID: 2100000, guid: 7770257ecb64b2f41ac83203fb64475e, type: 2}
   - {fileID: 2100000, guid: f087f3eafa464c34ea852c3364838186, type: 2}
   - {fileID: 2100000, guid: 635e032900544824b8d393fa07f46f2d, type: 2}
   m_StaticBatchInfo:
@@ -13434,7 +13434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9add8fafd77618443a55109858009bde, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e85fc89bd3d02854ea581492514746a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14316,7 +14316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.20097907, g: 0.19798504, b: 0.3509434, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19833,14 +19833,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OxygenBallon
       objectReference: {fileID: 0}
-    - target: {fileID: 9053581996933894542, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
-      propertyPath: scoreAmount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9053581996933894542, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
-      propertyPath: oxygenAmount
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 9053581996933894543, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -21693,7 +21685,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: dbb7b34ccd2bf6f4da5818fc05cba735, type: 2}
   - {fileID: 2100000, guid: 7362b78139f6c464b93827eb50a01b50, type: 2}
   - {fileID: 2100000, guid: dac7c115dceeccb40b410ff273500768, type: 2}
-  - {fileID: 1238868653306084124, guid: c767afd7e25151d4f84b3223fbc2fa12, type: 3}
+  - {fileID: 2100000, guid: 7770257ecb64b2f41ac83203fb64475e, type: 2}
   - {fileID: 2100000, guid: f087f3eafa464c34ea852c3364838186, type: 2}
   - {fileID: 2100000, guid: 635e032900544824b8d393fa07f46f2d, type: 2}
   m_StaticBatchInfo:
