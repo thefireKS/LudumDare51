@@ -20901,6 +20901,7 @@ GameObject:
   - component: {fileID: 1554794204}
   - component: {fileID: 1554794202}
   - component: {fileID: 1554794205}
+  - component: {fileID: 1554794206}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -20966,8 +20967,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnAreaHolder: {fileID: 960069738}
-  oxygenAndPointsManager: {fileID: 1554794202}
   spawnableInteractables: {fileID: 11400000, guid: 5c4dd38b3d3b1024486f857ee703edda, type: 2}
+  oxygenAndPointsManager: {fileID: 1554794202}
+  interactablesSpawningPenaltyManager: {fileID: 1554794206}
+--- !u!114 &1554794206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554794201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39c463c544842a4cab4cd451c717576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableInteractables: {fileID: 11400000, guid: 5c4dd38b3d3b1024486f857ee703edda, type: 2}
+  interactableItemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
+  interactablePenalties: {fileID: 11400000, guid: 3bdf383fa5b353f4e885a765511d7fc4, type: 2}
+  _currentDistancePenalty: 0
 --- !u!1 &1555653444
 GameObject:
   m_ObjectHideFlags: 0

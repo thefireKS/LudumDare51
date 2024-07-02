@@ -9,8 +9,9 @@ using Random = UnityEngine.Random;
 public class InteractablesSpawningManager : MonoBehaviour
 {
     [SerializeField] private GameObject spawnAreaHolder;
-    [SerializeField] private OxygenAndPointsManager oxygenAndPointsManager;
     [SerializeField] private SpawnableInteractables spawnableInteractables;
+    [SerializeField] private OxygenAndPointsManager oxygenAndPointsManager;
+    [SerializeField] private InteractablesSpawningPenaltyManager interactablesSpawningPenaltyManager;
 
     private bool ableToSpawnStars, ableToSpawnSpeedBoosts, ableToSpawnSlowBoosts, ableToSpawnSwamps, ableToSpawnDogs;
 
@@ -95,7 +96,8 @@ public class InteractablesSpawningManager : MonoBehaviour
 
     private void SpawnNewOxygen()
     {
-         var oxg = Instantiate(spawnableInteractables.oxygenInteractable, GetRandomSpawnAreaPosition(), quaternion.identity).transform;
+         var oxg = Instantiate(spawnableInteractables.oxygenInteractable, GetRandomSpawnAreaPosition(), quaternion.identity);
+         interactablesSpawningPenaltyManager.AddOxygenPenalty(oxg);
          AddOxygenToPointerList?.Invoke(oxg.transform);
     }
 
@@ -128,7 +130,7 @@ public class InteractablesSpawningManager : MonoBehaviour
         foreach (var area in spawnAreas)
         {
             var dist = (area.center + offset - player.position).sqrMagnitude;
-            if(dist < maxDistance && dist > minDistance)
+            if(dist < maxDistance + interactablesSpawningPenaltyManager._currentDistancePenalty && dist > minDistance + interactablesSpawningPenaltyManager._currentDistancePenalty)
                 possibleAreas.Add(area);
         }
 

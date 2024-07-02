@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDistance: 750
   maxSpawnDistance: 12000
-  oxygenInteractable: {fileID: 9053581996933894541, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
+  oxygenInteractable: {fileID: 9053581996933894542, guid: 7437f34d848a1aa4dbdeea172f0e48be, type: 3}
   starInteractable: {fileID: 7645429426731494207, guid: f14dfc8869fa2414e830ba62c917ca5a, type: 3}
-  scoreToSpawnStar: 15
+  scoreToSpawnStar: 25
   timeToSpawnStar: 10
   maxAmountOfStars: 5
   speedBoostInteractable: {fileID: 8274058486175439996, guid: 815f9c2c691372f4890d2a19e4a0c823, type: 3}
-  scoreToSpawnSpeedBoost: 25
+  scoreToSpawnSpeedBoost: 60
   timeToSpawnSpeedBoost: 15
   maxAmountOfSpeedBoosts: 3
   slowBoostInteractable: {fileID: 3917956501474750477, guid: e92955cc70f4bf94c86a324c942dcfa9, type: 3}
-  scoreToSpawnSlowBoost: 25
+  scoreToSpawnSlowBoost: 80
   timeToSpawnSlowBoost: 15
   maxAmountOfSlowBoosts: 2
   swampInteractable: {fileID: 7905043287757611791, guid: 81af9b59ea0e4d94fb513f61d5edd047, type: 3}
-  scoreToSpawnSwamp: 50
+  scoreToSpawnSwamp: 100
   timeToSpawnSwamp: 60
   maxAmountOfSwamps: 4
   dogInteractable: {fileID: 8247389719510296617, guid: 38c6472ad22dd424f9764e18850bfff7, type: 3}

@@ -10,7 +10,7 @@ public class SpawnableInteractables : ScriptableObject
     public float maxSpawnDistance;
     
     [Space(5)][Header("Oxygen")]
-    public GameObject oxygenInteractable;
+    public OxygenItem oxygenInteractable;
     
     [Space(5)] [Header("Star")] 
     public GameObject starInteractable;
