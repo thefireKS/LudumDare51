@@ -5,7 +5,7 @@ public class OxygenItem : Collectable
 {
     [SerializeField] private InteractableItemsParameters itemsParameters;
 
-    [HideInInspector] public float OxygenAmount = 0f;
+    public float OxygenAmount = 0f;
 
     public static Action OnOxygenCollected;
     public static Action<float> AddOxygen;
@@ -20,6 +20,12 @@ public class OxygenItem : Collectable
     {
         if (!collided.CompareTag("Player")) return;
 
+        CollectOxygen();
+    }
+
+    [ContextMenu("Collect")]
+    private void CollectOxygen()
+    {
         OnOxygenCollected?.Invoke();
         AddOxygen?.Invoke(OxygenAmount);
         AddScore?.Invoke(scoreAmount);

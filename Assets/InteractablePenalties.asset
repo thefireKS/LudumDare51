@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826534b0b8d11d54394852d43674a285, type: 3}
   m_Name: InteractablePenalties
   m_EditorClassIdentifier: 
-  oxygenPenaltyAmount: 0.1
+  oxygenPenaltyAmount: -0.25
+  minimumOxygenAmount: 5
+  oxygenAmountToStartAddingPenalty: 1
   oxygenAmountToResetPenalty: 15
-  minimumOxygenAmount: 2
   oxygenAmountToAddDistancePenalty: 15
   distancePenalty: 100

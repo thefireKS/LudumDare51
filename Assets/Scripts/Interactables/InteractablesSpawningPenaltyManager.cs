@@ -35,13 +35,16 @@ public class InteractablesSpawningPenaltyManager : MonoBehaviour
         if (_collectedOxygenCount > interactablePenalties.oxygenAmountToAddDistancePenalty)
             _currentDistancePenalty += interactablePenalties.distancePenalty;
         
-        _currentOxygenPenalty += interactablePenalties.oxygenPenaltyAmount;
         if (interactableItemsParameters.oxygenAmount - _currentOxygenPenalty < interactablePenalties.minimumOxygenAmount)
             _currentOxygenPenalty = interactableItemsParameters.oxygenAmount - interactablePenalties.minimumOxygenAmount;
     }
 
     public void AddOxygenPenalty(OxygenItem oxygenItem)
     {
+        if(_collectedOxygenCount < interactablePenalties.oxygenAmountToStartAddingPenalty)
+            return;
+        
+        _currentOxygenPenalty += interactablePenalties.oxygenPenaltyAmount;
         oxygenItem.OxygenAmount += _currentOxygenPenalty;
     }
 
