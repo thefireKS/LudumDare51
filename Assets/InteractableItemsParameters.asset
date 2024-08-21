@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: InteractableItemsParameters
   m_EditorClassIdentifier: 
   oxygenAmount: 10
-  scoreOnOxygenCollected: 5
+  scoreOnOxygenCollected: 10
   scoreOnStarCollected: 20
   positiveSpeedBonusPercentage: 33
   positiveSpeedBonusTime: 10

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oxygenPenaltyAmount: -0.25
   minimumOxygenAmount: 5
-  oxygenAmountToStartAddingPenalty: 1
+  oxygenAmountToStartAddingPenalty: 5
   oxygenAmountToResetPenalty: 15
   oxygenAmountToAddDistancePenalty: 15
   distancePenalty: 100

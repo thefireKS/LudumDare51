@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
+  OxygenAmount: 0
 --- !u!65 &9053581996933894576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58,7 +59,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 4, y: 2, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2763282718493609144
 PrefabInstance:
