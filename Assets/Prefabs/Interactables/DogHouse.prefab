@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7158077250842981261}
   - component: {fileID: 7158077250842981264}
   - component: {fileID: 7158077250842981265}
+  - component: {fileID: 913604355073964145}
   m_Layer: 0
   m_Name: DogHouse
   m_TagString: Untagged
@@ -60,6 +61,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
+--- !u!114 &913604355073964145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158077250842981266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VSFX_Prefab: {fileID: 7866399693426872828, guid: 6190e428bf4a7534f8e24fba5675657f, type: 3}
 --- !u!1001 &2878897742346233424
 PrefabInstance:
   m_ObjectHideFlags: 0

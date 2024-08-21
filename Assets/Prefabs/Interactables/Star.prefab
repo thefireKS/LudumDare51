@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7645429426731494206}
   - component: {fileID: 7645429426731494176}
   - component: {fileID: 7645429426731494177}
+  - component: {fileID: 2475012527876760570}
   m_Layer: 0
   m_Name: Star
   m_TagString: Untagged
@@ -60,6 +61,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2475012527876760570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645429426731494207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VSFX_Prefab: {fileID: 7866399693426872828, guid: 6190e428bf4a7534f8e24fba5675657f, type: 3}
 --- !u!1001 &1673571247153712281
 PrefabInstance:
   m_ObjectHideFlags: 0

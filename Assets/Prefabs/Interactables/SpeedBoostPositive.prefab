@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8274058486175439985}
   - component: {fileID: 8274058486175439998}
   - component: {fileID: 8274058486175439999}
+  - component: {fileID: 4437055037889729834}
   m_Layer: 0
   m_Name: SpeedBoostPositive
   m_TagString: Untagged
@@ -61,6 +62,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4437055037889729834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8274058486175439996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VSFX_Prefab: {fileID: 7866399693426872828, guid: 6190e428bf4a7534f8e24fba5675657f, type: 3}
 --- !u!1001 &5247058665157353237
 PrefabInstance:
   m_ObjectHideFlags: 0
