@@ -12067,7 +12067,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886478142}
-  m_LocalRotation: {x: 0.3818892, y: 0.01116634, z: -0.0046144025, w: 0.9241292}
+  m_LocalRotation: {x: 0.3818892, y: 0.011166372, z: -0.0046144156, w: 0.9241292}
   m_LocalPosition: {x: -0.40000916, y: 33.83, z: -16.549995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14683,7 +14683,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087283313}
-  m_LocalRotation: {x: 0.3818892, y: 0.01116634, z: -0.0046144025, w: 0.9241292}
+  m_LocalRotation: {x: 0.3818892, y: 0.011166372, z: -0.0046144156, w: 0.9241292}
   m_LocalPosition: {x: -0.40000916, y: 33.83, z: -16.549995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21617,6 +21617,7 @@ GameObject:
   - component: {fileID: 1554794202}
   - component: {fileID: 1554794205}
   - component: {fileID: 1554794206}
+  - component: {fileID: 1554794207}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -21701,6 +21702,20 @@ MonoBehaviour:
   interactableItemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
   interactablePenalties: {fileID: 11400000, guid: 3bdf383fa5b353f4e885a765511d7fc4, type: 2}
   _currentDistancePenalty: 0
+--- !u!114 &1554794207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554794201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d3ec5e6c61a4649b74f135ae7af19e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6552342334426724034, guid: 03b471932a6ea034eba8f8a6ae83538d, type: 3}
+  spawnPosition: {fileID: 941079158}
 --- !u!1 &1555653444
 GameObject:
   m_ObjectHideFlags: 0
