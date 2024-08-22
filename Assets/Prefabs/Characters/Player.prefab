@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &302141101401794349
 Transform:
   m_ObjectHideFlags: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnPosition: {fileID: 0}
   anim: {fileID: 2939112359588786908}
-  playerParameters: {fileID: 0}
+  playerParameters: {fileID: 11400000, guid: 0a0469d3b890dc142b673b51c269ab89, type: 2}
   player_GFX: {fileID: 8458375167099433500}
   moveSpeed: 550
 --- !u!114 &5339331978031119079

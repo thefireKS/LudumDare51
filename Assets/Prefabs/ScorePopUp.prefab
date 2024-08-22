@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6552342334426724061}
-  - component: {fileID: 6552342334426724035}
-  - component: {fileID: 6552342334426724060}
-  - component: {fileID: 6552342334426724034}
+  - component: {fileID: 3953280593983585649}
+  - component: {fileID: 5035734144992447352}
+  - component: {fileID: 4332544871491096690}
+  - component: {fileID: 7315267915933639879}
   m_Layer: 5
   m_Name: ScorePopUp
   m_TagString: Untagged
@@ -26,20 +27,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6552342334426724062}
-  m_LocalRotation: {x: 0, y: 0, z: -0.13052624, w: 0.9914449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 798, y: 413}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 200, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6552342334426724035
+--- !u!222 &3953280593983585649
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,7 +48,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6552342334426724062}
   m_CullTransparentMesh: 1
---- !u!114 &6552342334426724060
+--- !u!225 &5035734144992447352
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6552342334426724062}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &4332544871491096690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6552342334426724062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc9e52ac93bab543bb10d048451be42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 11.07
+  lifetime: 1.5
+  scorePopUp_TMP: {fileID: 7315267915933639879}
+  startTransparency: 0
+  endTransparency: 1
+  transparencyTime: 0.6
+--- !u!114 &7315267915933639879
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,15 +100,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: +1234
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f15947226525ba548a6456548005abf7, type: 2}
-  m_sharedMaterial: {fileID: 4005813429148389098, guid: f15947226525ba548a6456548005abf7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e2b19fcf9270e7245a28bd90a9dafa12, type: 2}
+  m_sharedMaterial: {fileID: 4005813429148389098, guid: e2b19fcf9270e7245a28bd90a9dafa12, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4286713188
-  m_fontColor: {r: 0.39248273, g: 0.049982186, b: 0.509434, a: 1}
+  m_fontColor: {r: 0.39215687, g: 0.050980393, b: 0.50980395, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -94,8 +125,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -136,20 +167,3 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6552342334426724034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6552342334426724062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bc9e52ac93bab543bb10d048451be42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 15
-  scorePopUp_TMP: {fileID: 6552342334426724060}
-  startScale: 0
-  endScale: 1
-  scaleTime: 1

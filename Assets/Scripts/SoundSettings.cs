@@ -33,7 +33,7 @@ public class SoundSettings : MonoBehaviour
     public void SetSfxVolume()
     {
         audioMixer.SetFloat("sfx", Mathf.Log10(sfxSlider.value) * audioCoefficient);
-        PlayerPrefs.SetFloat("sfxVolume", musicSlider.value);
+        PlayerPrefs.SetFloat("sfxVolume", sfxSlider.value);
     }
 
     private void LoadMusicVolume()

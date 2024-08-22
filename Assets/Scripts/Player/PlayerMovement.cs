@@ -42,12 +42,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(Time.timeScale == 0f)
+            return;
+        
         _rigidbody.velocity = new Vector3(moveVelocity.x * Time.fixedDeltaTime, _rigidbody.velocity.y,moveVelocity.z * Time.fixedDeltaTime);
     }
 
     public void GetInput(InputAction.CallbackContext _callbackContext)
     {
-        if(Time.timeScale == 0f) return;
+        if(Time.timeScale == 0f)
+            return;
         
         moveInput = _callbackContext.ReadValue<Vector2>();
         var input = moveInput.normalized;

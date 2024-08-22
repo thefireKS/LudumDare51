@@ -6,6 +6,7 @@ public class ImpactOnDestroy : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(VSFX_Prefab, transform.position, transform.rotation);
+        if(gameObject.scene.isLoaded)
+            Instantiate(VSFX_Prefab, transform.position, transform.rotation);
     }
 }
