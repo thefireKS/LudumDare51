@@ -3241,7 +3241,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1594331756}
         m_TargetAssemblyTypeName: SoundSettings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
@@ -12154,7 +12154,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886478142}
-  m_LocalRotation: {x: 0.3818892, y: 0.01116634, z: -0.0046144025, w: 0.9241292}
+  m_LocalRotation: {x: 0.3818892, y: 0.011166372, z: -0.0046144156, w: 0.9241292}
   m_LocalPosition: {x: -0.40000916, y: 33.83, z: -16.549995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14797,7 +14797,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087283313}
-  m_LocalRotation: {x: 0.3818892, y: 0.01116634, z: -0.0046144025, w: 0.9241292}
+  m_LocalRotation: {x: 0.3818892, y: 0.011166372, z: -0.0046144156, w: 0.9241292}
   m_LocalPosition: {x: -0.40000916, y: 33.83, z: -16.549995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26550,7 +26550,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1594331756}
         m_TargetAssemblyTypeName: SoundSettings, Assembly-CSharp
         m_MethodName: SetSfxVolume
         m_Mode: 1
