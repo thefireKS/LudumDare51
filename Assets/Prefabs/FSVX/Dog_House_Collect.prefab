@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7866399693426872826}
   - component: {fileID: 7866399693426872829}
   m_Layer: 0
-  m_Name: Oxygen_Collect
+  m_Name: Dog_House_Collect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,8 +117,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 4
-      minScalar: 2
+      scalar: 3
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -170,8 +170,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 8
-      minScalar: 6
+      scalar: 10
+      minScalar: 4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -223,12 +223,12 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.5618014, g: 0.7290414, b: 0.8113208, a: 1}
-      maxColor: {r: 0.554368, g: 0.85660374, b: 0.84259284, a: 1}
+      minColor: {r: 1, g: 0.34528297, b: 0.5809809, a: 1}
+      maxColor: {r: 1, g: 0.060754213, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 1, g: 0, b: 0, a: 1}
+        key1: {r: 0.5320754, g: 0, b: 0.21283022, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -285,9 +285,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.2
+      minMaxState: 0
+      scalar: 12
+      minScalar: 8
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -338,7 +338,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -391,7 +391,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -551,8 +551,8 @@ ParticleSystem:
     startRotation:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.9599311
-      minScalar: 0.08726646
+      scalar: 0.7853981
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -663,7 +663,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 35
+    angle: 15
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -749,7 +749,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 3
       mode: 0
       spread: 0
       speed:
@@ -978,7 +978,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 50
+        scalar: 25
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -1194,7 +1194,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -4862,7 +4862,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 8840573060648733948, guid: c8b964917225141499a388a16d8223e4, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -4913,7 +4913,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3951314540743556416, guid: 94ab099c39500b149bfa0a156a8be237, type: 2}
-  m_audioClip: {fileID: 8300000, guid: f057a18417091d24b86f84c7ad03f0d6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba55375b019cf0a468d4e9a34418272f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

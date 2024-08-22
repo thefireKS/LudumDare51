@@ -304,4 +304,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VSFX_Prefab: {fileID: 7866399693426872828, guid: 6190e428bf4a7534f8e24fba5675657f, type: 3}
+  VSFX_Prefab: {fileID: 7866399693426872828, guid: 941aade6d7e78664593050c9bb790ea3, type: 3}

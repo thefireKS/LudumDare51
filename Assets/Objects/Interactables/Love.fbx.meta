@@ -1,34 +1,14 @@
 fileFormatVersion: 2
-guid: 11d625f4ff295b84283182410caa7e3d
+guid: c8b964917225141499a388a16d8223e4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _defaultMat(Clone)
-    second: {fileID: 2100000, guid: 011884f7cb7703142b648f95fef587e7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: dark(Clone)
-    second: {fileID: 2100000, guid: eafab246ca2b65e4dad181b10d794902, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: metal(Clone)
-    second: {fileID: 2100000, guid: 011884f7cb7703142b648f95fef587e7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: metalGreen(Clone)
-    second: {fileID: 2100000, guid: e1f1e7b0a1d71eb4f9cfeeab8e104fcc, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
