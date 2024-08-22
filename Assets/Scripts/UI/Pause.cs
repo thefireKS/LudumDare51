@@ -2,10 +2,12 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+    [SerializeField] private Button continueButton;
 
     private void Start() => PlayerInputManager.playerControls.Default.Pause.started += OpenPauseMenuAction;
     private void OnDisable() => PlayerInputManager.playerControls.Default.Pause.started -= OpenPauseMenuAction;
@@ -17,6 +19,10 @@ public class Pause : MonoBehaviour
 
     public void OpenPauseMenu()
     {
+        #if !UNITY_ANDROID
+        continueButton.Select();
+        #endif
+        
         if (pausePanel.activeSelf)
         {
             Continue();

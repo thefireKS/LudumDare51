@@ -4,37 +4,37 @@ using UnityEngine;
 
 public class ScorePopUp : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float speed, lifetime;
     [SerializeField] private TextMeshProUGUI scorePopUp_TMP;
 
-    [SerializeField] private float startScale, endScale, scaleTime;
+    private CanvasGroup _canvasGroup;
 
+    [Header("Transparency")] 
+    [SerializeField] private float startTransparency;
+    [SerializeField] private float endTransparency; 
+    [SerializeField] private float transparencyTime;
+    
     private void Awake()
     {
-        StartCoroutine(ScaleOverTime(startScale, endScale, scaleTime));
+        _canvasGroup = gameObject.GetComponent<CanvasGroup>();
+        
+        Destroy(gameObject, lifetime);
+        StartCoroutine(TransparencyOverTime(startTransparency, endTransparency, transparencyTime));
     }
 
     private void Update()
     {
         transform.position += transform.up * (speed * Time.fixedDeltaTime);
     }
-
-    private void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
-
-    private IEnumerator ScaleOverTime(float startScaleValue, float endScaleValue, float scaleTimeValue)
+    private IEnumerator TransparencyOverTime(float startTransValue, float endTransValue, float transTimeValue)
     {
         float elapsedTime = 0f;
-
-        Vector3 starScale = new Vector3(startScaleValue, startScaleValue, startScaleValue);
-        Vector3 endScale = new Vector3(endScaleValue, endScaleValue, endScaleValue);
+        
         // Пока прошло меньше времени, чем заданная продолжительность
-        while (elapsedTime < scaleTimeValue)
+        while (elapsedTime < transTimeValue)
         {
             // Интерполяция между startScaleValue и endScaleValue
-            transform.localScale = Vector3.Lerp(starScale, endScale, elapsedTime / scaleTimeValue);
+            _canvasGroup.alpha = Mathf.Lerp(startTransValue, endTransValue, elapsedTime / transTimeValue);
 
             // Увеличиваем прошедшее время
             elapsedTime += Time.deltaTime;
@@ -44,7 +44,7 @@ public class ScorePopUp : MonoBehaviour
         }
 
         // Обеспечение точной установки финального значения масштаба
-        transform.localScale = endScale;
+        _canvasGroup.alpha = endTransValue; 
     }
 
     public void SetText(int score)
