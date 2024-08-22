@@ -3237,7 +3237,7 @@ MonoBehaviour:
   m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.6
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -26417,7 +26417,7 @@ MonoBehaviour:
   m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.6
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -28924,6 +28924,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 94ab099c39500b149bfa0a156a8be237, type: 2}
   musicSlider: {fileID: 232110280}
   sfxSlider: {fileID: 1847147898}
+  audioCoefficient: 40
 --- !u!1001 &2030451551
 PrefabInstance:
   m_ObjectHideFlags: 0
