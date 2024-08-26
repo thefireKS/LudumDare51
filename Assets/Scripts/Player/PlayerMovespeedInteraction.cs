@@ -30,7 +30,8 @@ public class PlayerMovespeedInteraction : MonoBehaviour
 
     public void ChangeSpeed(float percentage)
     {
-        playerMovement.moveSpeed += defaultPlayerSpeed * ((percentage + 100f) / 100f) - defaultPlayerSpeed;
+        var newSpeed = defaultPlayerSpeed * ((percentage + 100f) / 100f) - defaultPlayerSpeed;
+        playerMovement.moveSpeed += newSpeed;
     }
 
     public void ChangeSpeedToDefault()

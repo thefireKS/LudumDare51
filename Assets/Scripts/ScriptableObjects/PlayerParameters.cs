@@ -12,6 +12,7 @@ public class PlayerParameters : ScriptableObject
     [Range(0,1)] public float extraLastTimeSlowDown;
 
     [Space(5)] [Header("Movement")] 
+    public float minimumMoveSpeed;
     public float moveSpeed;
     public float rotationSpeed;
 }

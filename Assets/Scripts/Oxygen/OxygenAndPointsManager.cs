@@ -6,7 +6,6 @@ public class OxygenAndPointsManager : MonoBehaviour
 {
     [Header("UI objects")]
     [SerializeField] private GameObject EndGameMenu;
-    [SerializeField] private Button PlayAgainButton;
     [SerializeField] private GameObject ScoreUI;
     [SerializeField] private Image oxygenLeftBar;
     
@@ -82,10 +81,6 @@ public class OxygenAndPointsManager : MonoBehaviour
         finalScoreText.text = "Your score: " + score;
         
         ScoreUI.SetActive(false);
-        
-#if !UNITY_ANDROID
-        PlayAgainButton.Select();
-#endif
         
         EndGameMenu.SetActive(true);
         

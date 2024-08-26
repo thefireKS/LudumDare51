@@ -14,6 +14,7 @@ public class PlayerDogCarrying : MonoBehaviour
     {
         playerMoveSpeedInteraction = GetComponent<PlayerMovespeedInteraction>();
         dogCartObject.SetActive(false);
+        hasDog = false;
     }
 
     private void OnEnable()
