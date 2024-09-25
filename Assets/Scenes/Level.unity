@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 5aa2322ae460de94587c69b7b1a5629b
+  m_OcclusionCullingData: {fileID: 36300000, guid: 94e0711e9cd0807428a0813d13baebb9, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -296,6 +296,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -348,6 +352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BridgeEnd.1
       objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -366,9 +374,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -438,7 +454,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &23811441
 Transform:
@@ -463,6 +479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -510,6 +530,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -729,6 +753,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -776,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1032,9 +1064,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -1316,12 +1356,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76238984}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Capsules
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &76238984
 Transform:
@@ -1768,6 +1808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island3.1
       objectReference: {fileID: 0}
+    - target: {fileID: 969490287304190638, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1977246373785425334, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 629
@@ -1775,6 +1819,10 @@ PrefabInstance:
     - target: {fileID: 1977246373785425334, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_LocalPosition.z
       value: -262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291297886496246920, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3678164365682757453, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_RootOrder
@@ -1828,6 +1876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4512297960746637491, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1841,9 +1893,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -2073,9 +2133,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -2139,9 +2207,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -2205,9 +2281,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -2271,9 +2355,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -2471,9 +2563,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -2791,6 +2891,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2804,9 +2912,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -2916,9 +3032,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -3063,6 +3187,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3122,6 +3302,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3487,6 +3675,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3534,6 +3726,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3588,9 +3784,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -3654,9 +3858,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -3725,9 +3937,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -3928,6 +4148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House4.2
       objectReference: {fileID: 0}
+    - target: {fileID: 6982625370761154486, guid: ee9426b6389d2f74e959434b6de5e745, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6982625370761154486, guid: ee9426b6389d2f74e959434b6de5e745, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4105,6 +4333,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4152,6 +4384,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4337,6 +4573,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4396,6 +4688,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4504,9 +4804,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -4763,9 +5071,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -4870,6 +5186,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4921,6 +5241,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5335,7 +5659,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &396256208
 Transform:
@@ -5369,6 +5693,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5428,6 +5808,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5658,6 +6046,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5709,6 +6101,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6503,6 +6899,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6550,6 +6950,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7045,6 +7449,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7104,6 +7564,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7289,9 +7757,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -7511,9 +7987,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -7582,9 +8066,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -7648,9 +8140,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -7880,9 +8380,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -7946,9 +8454,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -8049,9 +8565,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -8115,6 +8639,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8175,6 +8755,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dome.7
       objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8188,9 +8776,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -8258,9 +8854,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -8532,9 +9136,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -8773,9 +9385,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -9260,9 +9880,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -9492,6 +10120,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -9543,6 +10175,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9602,6 +10238,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -9653,6 +10293,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9949,6 +10593,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House5.2
       objectReference: {fileID: 0}
+    - target: {fileID: 4510371339893162389, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510371339893162389, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4510371339893162390, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -10011,9 +10663,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -10158,9 +10818,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -10224,9 +10892,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -10290,6 +10966,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10337,6 +11017,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11065,9 +11749,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -11414,9 +12106,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -11634,9 +12334,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -12200,9 +12908,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -12266,9 +12982,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -12461,9 +13185,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -12790,9 +13522,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -13063,7 +13803,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &949759656
 Transform:
@@ -13351,7 +14091,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &960069739
 BoxCollider:
@@ -14345,9 +15085,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -14411,9 +15159,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -14477,6 +15233,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14525,6 +15285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BridgeEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14543,9 +15307,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -14684,9 +15456,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -14785,9 +15565,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -15353,7 +16141,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087283313}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -15897,6 +16685,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island4.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5110549502218514910, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379801985342809211, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093594316530062431, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15916,7 +16716,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1103999825
 Transform:
@@ -16127,9 +16927,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -16359,9 +17167,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -16425,9 +17241,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -16578,6 +17402,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -16637,6 +17517,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17357,6 +18245,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -17408,6 +18300,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17499,6 +18395,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -17559,6 +18511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dome.4
       objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17579,7 +18539,7 @@ GameObject:
   m_TagString: FallingZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1227376943
 BoxCollider:
@@ -17700,9 +18660,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -17847,7 +18815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1267704657
 Transform:
@@ -18038,9 +19006,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -18104,9 +19080,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -18289,9 +19273,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -18445,7 +19437,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &1288825729
 Light:
@@ -18540,7 +19532,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1295130819
 RectTransform:
@@ -18697,9 +19689,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3313090776192293118}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -19282,9 +20282,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -19655,9 +20663,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -19721,9 +20737,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -19821,9 +20845,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -19887,9 +20919,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -19953,6 +20993,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -20004,6 +21048,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20112,9 +21160,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -20261,9 +21317,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -20583,6 +21647,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20762,6 +21834,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 949759656}
     m_Modifications:
+    - target: {fileID: 496831287572629052, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2427069555382278083, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20825,6 +21901,14 @@ PrefabInstance:
     - target: {fileID: 2574370025339850453, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_Name
       value: Island1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2574370025339850453, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081098685096006009, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7813928419989356045, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21015,9 +22099,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -21609,6 +22701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -21660,6 +22756,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22144,9 +23244,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -22210,9 +23318,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -22370,7 +23486,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1554794202
 MonoBehaviour:
@@ -22648,9 +23764,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -22803,7 +23927,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1572422870
 Transform:
@@ -22994,9 +24118,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -23095,9 +24227,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -23868,6 +25008,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -23927,6 +25123,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24353,9 +25557,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -24837,6 +26049,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862403007731584}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -24884,6 +26100,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25212,6 +26432,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House3.2
       objectReference: {fileID: 0}
+    - target: {fileID: 476395736944287562, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476395736944287562, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 476395736944287573, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -25277,6 +26505,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -25328,6 +26560,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25596,9 +26832,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -25743,9 +26987,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -25809,6 +27061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279743566931830417}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -25857,6 +27113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BridgeEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25875,9 +27135,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7660771198587727408}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -26216,9 +27484,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653414984360}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -26375,6 +27651,14 @@ PrefabInstance:
     - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
       propertyPath: m_Name
       value: House6.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 661666668977319944, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
       propertyPath: m_RootOrder
@@ -26975,6 +28259,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island2.1
       objectReference: {fileID: 0}
+    - target: {fileID: 1899625589795446310, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367016409481383942, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6750915599227920107, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 589
@@ -26982,6 +28274,10 @@ PrefabInstance:
     - target: {fileID: 6750915599227920107, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1064
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420969698453788301, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8962370143412923742, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_RootOrder
@@ -27064,7 +28360,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1846534436
 RectTransform:
@@ -27300,7 +28596,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1855307598
 MonoBehaviour:
@@ -27509,9 +28805,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -27748,9 +29052,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -27897,9 +29209,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -28221,9 +29541,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -28457,9 +29785,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1572422870}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -28811,6 +30147,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -28862,6 +30202,10 @@ PrefabInstance:
     - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_Name
       value: BridgeEnd.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28964,6 +30308,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 949759656}
     m_Modifications:
+    - target: {fileID: 496831287572629052, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2427069555382278083, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -29028,6 +30376,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2574370025339850453, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081098685096006009, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29041,9 +30397,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -29190,6 +30554,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -29249,6 +30669,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29349,6 +30777,14 @@ PrefabInstance:
     - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
       propertyPath: m_Name
       value: House2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4889542019067837863, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
       propertyPath: m_RootOrder
@@ -29669,6 +31105,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -29728,6 +31220,14 @@ PrefabInstance:
     - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_Name
       value: Dome.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29806,9 +31306,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402357615447}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -30079,9 +31587,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862404308647517}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -30518,9 +32034,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7517862402752122312}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -30734,6 +32258,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -30794,6 +32374,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dome.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30813,12 +32401,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105405799}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2105405799
 Transform:
@@ -31554,6 +33142,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House3.1
       objectReference: {fileID: 0}
+    - target: {fileID: 476395736944287562, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476395736944287562, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 476395736944287573, guid: 1c845022aff042540a2f8ab4718705dd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -31647,7 +33243,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1001 &661666667219262640
 PrefabInstance:
@@ -31660,6 +33256,14 @@ PrefabInstance:
     - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
       propertyPath: m_Name
       value: House6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661666668977319941, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 661666668977319944, guid: 3016550719cad874da57deaf92b1a4de, type: 3}
       propertyPath: m_RootOrder
@@ -31724,7 +33328,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1001 &1556014246688116274
 PrefabInstance:
@@ -31738,6 +33342,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island2
       objectReference: {fileID: 0}
+    - target: {fileID: 1899625589795446310, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367016409481383942, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6750915599227920107, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -31745,6 +33357,10 @@ PrefabInstance:
     - target: {fileID: 6750915599227920107, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_LocalPosition.z
       value: -882
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420969698453788301, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8962370143412923742, guid: 5e7e2de817b3d3949b784915904cfa24, type: 3}
       propertyPath: m_RootOrder
@@ -31803,6 +33419,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76238984}
     m_Modifications:
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723047135648246854, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986755461839839921, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371444438019720824, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967696221599506494, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924225345856637045, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208572180656686163, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707273462010207305, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7337132954580559090, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -31851,6 +33523,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dome
       objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969518804971978312, guid: 835d4701c64a3044ca61fb9e793ff585, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31870,7 +33550,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3313090776192293118
 Transform:
@@ -31972,6 +33652,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House5.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4510371339893162389, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510371339893162389, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4510371339893162390, guid: 278273bfe38d2514096a6360149f3d6c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -32032,6 +33720,14 @@ PrefabInstance:
     - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
       propertyPath: m_Name
       value: House2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889542019067837860, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4889542019067837863, guid: 5cbd56e3ae2bfd540a51ba4d8945d40c, type: 3}
       propertyPath: m_RootOrder
@@ -32147,6 +33843,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island4
       objectReference: {fileID: 0}
+    - target: {fileID: 5110549502218514910, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379801985342809211, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093594316530062431, guid: bb75049d06e83e849ae22213b1df155d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32164,6 +33872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island3
       objectReference: {fileID: 0}
+    - target: {fileID: 969490287304190638, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1977246373785425334, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38
@@ -32171,6 +33883,10 @@ PrefabInstance:
     - target: {fileID: 1977246373785425334, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_LocalPosition.z
       value: -598
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291297886496246920, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3678164365682757453, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
       propertyPath: m_RootOrder
@@ -32216,6 +33932,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4512297960746637491, guid: 2efd4f09cc7dbe34ea7f9ecf47db3b62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32229,6 +33949,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 383482694799075041, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6168659123276895588, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -32277,6 +34001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BridgeEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 6168659123276895611, guid: f90a38c43d55b6a4a98021c423a127c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32290,9 +34018,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 56386096968765044, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_Name
       value: BridgeUpturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625280934372451282, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6625280934372451285, guid: 4d703b899f4ffd44f8746038b4685b04, type: 3}
       propertyPath: m_RootOrder
@@ -32404,6 +34140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House4.1
       objectReference: {fileID: 0}
+    - target: {fileID: 6982625370761154486, guid: ee9426b6389d2f74e959434b6de5e745, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6982625370761154486, guid: ee9426b6389d2f74e959434b6de5e745, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32423,7 +34167,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7142428266601251309
 GameObject:
@@ -32439,7 +34183,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7142428267050044730
 GameObject:
@@ -32455,7 +34199,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7142428267281012594
 GameObject:
@@ -32471,7 +34215,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7142428268030125287
 GameObject:
@@ -32487,7 +34231,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7517862402357615447
 Transform:
@@ -32622,9 +34366,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396256208}
     m_Modifications:
+    - target: {fileID: 148419607252576462, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_Name
       value: BridgeFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745516666070602920, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7745516666070602921, guid: 97ad4a69efa95324b86e0e88e2b4fa61, type: 3}
       propertyPath: m_RootOrder
@@ -32736,6 +34488,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665258559178539046, guid: af08cf06d14039541bec1eec83472d78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32754,6 +34514,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1267704657}
     m_Modifications:
+    - target: {fileID: 496831287572629052, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 965981043488566701, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_Convex
       value: 0
@@ -32805,6 +34569,14 @@ PrefabInstance:
     - target: {fileID: 2574370025339850453, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_Name
       value: Island1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2574370025339850453, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081098685096006009, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7813928419989356045, guid: 411c5448382ee1548a6bd7666035fde8, type: 3}
       propertyPath: m_LocalPosition.x
