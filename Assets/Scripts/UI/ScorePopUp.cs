@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ScorePopUp : MonoBehaviour
 {
+    private const int DefaultHeight = 1080;
+    
     [SerializeField] private float speed, lifetime;
     [SerializeField] private TextMeshProUGUI scorePopUp_TMP;
 
@@ -16,6 +18,8 @@ public class ScorePopUp : MonoBehaviour
     
     private void Awake()
     {
+        speed *= (float) Screen.height / DefaultHeight;
+        
         _canvasGroup = gameObject.GetComponent<CanvasGroup>();
         
         Destroy(gameObject, lifetime);
