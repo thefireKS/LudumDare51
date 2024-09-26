@@ -33,7 +33,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -72,8 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc9e52ac93bab543bb10d048451be42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 11.07
-  lifetime: 1.5
+  speed: 60
+  lifetime: 3
   scorePopUp_TMP: {fileID: 7315267915933639879}
   startTransparency: 0
   endTransparency: 1
