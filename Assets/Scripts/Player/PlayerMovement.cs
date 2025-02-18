@@ -68,12 +68,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Rotate()
     {
+        if (!(moveVelocity.magnitude > 0)) return;
+        
         Quaternion newRotation = Quaternion.LookRotation(rotation, Vector3.up);
-        if (moveVelocity.magnitude > 0)
-        {
-            player_GFX.transform.rotation = Quaternion.Lerp(player_GFX.transform.rotation,
-                newRotation, Time.fixedDeltaTime * playerParameters.rotationSpeed);
-        }
+            
+        player_GFX.transform.rotation = Quaternion.Lerp(player_GFX.transform.rotation,
+            newRotation, Time.fixedDeltaTime * playerParameters.rotationSpeed);
     }
     
     private void OnTriggerEnter(Collider other)

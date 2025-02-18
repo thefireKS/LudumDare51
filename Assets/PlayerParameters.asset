@@ -15,5 +15,6 @@ MonoBehaviour:
   oxygenTime: 30
   maximumOxygenTime: 30
   extraLastTimeSlowDown: 0.6
+  minimumMoveSpeed: 0
   moveSpeed: 550
   rotationSpeed: 15
