@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.OnScreen;
 
-public class DynamicOnScreenJoystick : MonoBehaviour, IPointerUpHandler ,IPointerDownHandler, IDragHandler
+public class DynamicOnScreenJoystick : MonoBehaviour, IPointerUpHandler ,IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField] private RectTransform joystick;
     [SerializeField] private RectTransform inputHandle;
@@ -34,10 +34,20 @@ public class DynamicOnScreenJoystick : MonoBehaviour, IPointerUpHandler ,IPointe
     {
         onScreenStick.OnPointerUp(eventData);
     }
-
+    
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        joystickHandleController.OnBeginDrag(eventData);
+    }
+    
     public void OnDrag(PointerEventData eventData)
     {
         joystickHandleController.OnDrag(eventData);
         onScreenStick.OnDrag(eventData);
+    }
+    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        joystickHandleController.OnEndDrag(eventData);
     }
 }
