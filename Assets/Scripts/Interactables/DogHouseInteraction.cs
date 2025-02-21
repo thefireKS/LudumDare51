@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class DogHouseInteraction : Collectable
 {
-    [SerializeField] private InteractableItemsParameters itemsParameters;
-    
     public static Action DogWasReleased;
 
     private void OnEnable()

@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13219524789627078}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8736787479223267987}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7475510427788000393
 SkinnedMeshRenderer:
@@ -136,13 +136,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677389757034383417}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.013460447, y: -0.7293934, z: -0.028770214, w: 0.68335664}
   m_LocalPosition: {x: -29.226862, y: 0, z: -2.8564804e-14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1800222019763175077}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2280465191085373760
 GameObject:
@@ -167,6 +167,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2280465191085373760}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.029333198, y: 0.70649815, z: -0.029333198, w: 0.70649815}
   m_LocalPosition: {x: 2.472143e-15, y: 56.590824, z: -22.862694}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -174,7 +175,6 @@ Transform:
   m_Children:
   - {fileID: 1800222019763175077}
   m_Father: {fileID: 8736787479223267987}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4926684893146520054
 GameObject:
@@ -199,6 +199,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4926684893146520054}
+  serializedVersion: 2
   m_LocalRotation: {x: 6.0835856e-26, y: -1.10420797e-16, z: 0.009396458, w: 0.9999559}
   m_LocalPosition: {x: -28.583738, y: 0.12407829, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -206,7 +207,6 @@ Transform:
   m_Children:
   - {fileID: 1043952220418696911}
   m_Father: {fileID: 5484596037342207138}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8247389719510296617
 GameObject:
@@ -220,7 +220,6 @@ GameObject:
   - component: {fileID: 3449582736028936425}
   - component: {fileID: 3449582736028936426}
   - component: {fileID: 4797091348900888043}
-  - component: {fileID: 6580367430637608345}
   m_Layer: 0
   m_Name: Dog Collectable
   m_TagString: Dog
@@ -235,6 +234,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8247389719510296617}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -266.9028, y: 15.709215, z: -38.12813}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
@@ -243,7 +243,6 @@ Transform:
   - {fileID: 5484596037342207138}
   - {fileID: 8928075182330459895}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3449582736028936425
 Animator:
@@ -274,9 +273,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8247389719510296617}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 204.94995, y: 129.66397, z: 198.99199}
   m_Center: {x: -3.0944824, y: 54.06722, z: -2.4225593}
 --- !u!114 &4797091348900888043
@@ -292,16 +299,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
---- !u!114 &6580367430637608345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8247389719510296617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   VSFX_Prefab: {fileID: 7866399693426872828, guid: 941aade6d7e78664593050c9bb790ea3, type: 3}

@@ -1,10 +1,8 @@
 using System;
 using UnityEngine;
 
-public class DogCollectable : MonoBehaviour
+public class DogCollectable : Collectable
 {
-    [SerializeField] private InteractableItemsParameters itemsParameters;
-    
     public static Action <float> DogWasTaken;
     public static Action DogWasTakenNotification;
 

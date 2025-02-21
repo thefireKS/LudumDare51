@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class Star : Collectable
 {
-    [SerializeField] private InteractableItemsParameters itemsParameters;
-
     private void OnEnable()
     {
         scoreAmount = itemsParameters.scoreOnStarCollected;

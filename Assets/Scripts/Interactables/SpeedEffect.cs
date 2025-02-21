@@ -3,10 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedEffect : MonoBehaviour
+public class SpeedEffect : Collectable
 {
     [SerializeField] private bool isPositiveSpeedEffect;
-    [SerializeField] private InteractableItemsParameters itemsParameters;
     private float speedBonusPercentage, speedBonusTime;
 
     public static Action<float, float> AddSpeedEffect;

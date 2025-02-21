@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8274058486175439985}
   - component: {fileID: 8274058486175439998}
   - component: {fileID: 8274058486175439999}
-  - component: {fileID: 4437055037889729834}
   m_Layer: 0
   m_Name: SpeedBoostPositive
   m_TagString: Untagged
@@ -26,6 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8274058486175439996}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,7 +33,6 @@ Transform:
   m_Children:
   - {fileID: 5718434027001329918}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8274058486175439998
 MonoBehaviour:
@@ -47,8 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92095fc259324c4d967f45796c1d2e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPositiveSpeedEffect: 1
   itemsParameters: {fileID: 11400000, guid: 7a873344137626e46aeab0a36af0b7b6, type: 2}
+  VSFX_Prefab: {fileID: 7866399693426872828, guid: 90be2f80d62dc684fbed5de46fb559ef, type: 3}
+  isPositiveSpeedEffect: 1
 --- !u!65 &8274058486175439999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57,29 +57,25 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8274058486175439996}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4437055037889729834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8274058486175439996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a910b9f954e74b4f865b2269f8a94d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VSFX_Prefab: {fileID: 7866399693426872828, guid: 90be2f80d62dc684fbed5de46fb559ef, type: 3}
 --- !u!1001 &5247058665157353237
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8274058486175439985}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 95d492f7705606449909bccb2e8b3cb9, type: 3}
@@ -155,6 +151,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 862b1741c4e7306459948b81d6966a53, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95d492f7705606449909bccb2e8b3cb9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9137674588340754513}
   m_SourcePrefab: {fileID: 100100000, guid: 95d492f7705606449909bccb2e8b3cb9, type: 3}
 --- !u!1 &4904461636738998852 stripped
 GameObject:

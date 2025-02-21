@@ -30,7 +30,7 @@ public class JoystickHandleController : MonoBehaviour, IBeginDragHandler, IDragH
     
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.LogWarning("Pointer Down");
+        //Debug.LogWarning("Pointer Down");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -55,7 +55,7 @@ public class JoystickHandleController : MonoBehaviour, IBeginDragHandler, IDragH
         handlePosition.x = stickRectTransform.position.x; 
         handlePosition.y = stickRectTransform.position.y;
         
-        Debug.Log((pointerPosition - handlePosition).magnitude);
+        //Debug.Log((pointerPosition - handlePosition).magnitude);
         
         if((pointerPosition - handlePosition).magnitude > moveHandlePenalty)
         {

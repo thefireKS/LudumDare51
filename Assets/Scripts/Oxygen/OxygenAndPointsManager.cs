@@ -36,7 +36,7 @@ public class OxygenAndPointsManager : MonoBehaviour
 
     private void OnEnable()
     {
-        timer = playerParameters.oxygenTime;
+        timer = playerParameters.preGameOxygenTimeAmount;
 
         OxygenItem.AddOxygen += OxygenCollected;
         Collectable.AddScore += AddScoreOnCollectableCollected;
@@ -50,16 +50,15 @@ public class OxygenAndPointsManager : MonoBehaviour
 
     private void Update()
     {
-        if (timer > 3f)
-            timer -= Time.deltaTime;
+        if (timer > playerParameters.timeWhenStartExtraLastTimeSlowDown)
+            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier;
         else
-            timer -= Time.deltaTime * playerParameters.extraLastTimeSlowDown;
+            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier * playerParameters.extraLastTimeSlowDown;
         
         if (timer <= 0f)
             GameEnd();
 
         oxygenLeftBar.fillAmount = timer / playerParameters.maximumOxygenTime;
-        scoreText.text = "SCORE: " + score;
     }
     
     private void OxygenCollected(float oxygenGivenTime)
@@ -72,6 +71,8 @@ public class OxygenAndPointsManager : MonoBehaviour
     private void AddScoreOnCollectableCollected(int scoreGiven)
     {
         score += scoreGiven;
+        
+        scoreText.text = "SCORE: " + score;
     }
     
     private void GameEnd()

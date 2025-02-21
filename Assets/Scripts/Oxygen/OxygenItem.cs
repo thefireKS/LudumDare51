@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class OxygenItem : Collectable
 {
-    [SerializeField] private InteractableItemsParameters itemsParameters;
-
     public float OxygenAmount = 0f;
 
     public static Action OnOxygenCollected;
