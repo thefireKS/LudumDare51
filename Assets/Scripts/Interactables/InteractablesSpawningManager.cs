@@ -57,37 +57,42 @@ public class InteractablesSpawningManager : MonoBehaviour
         {
             spawnAreas.Add(boxCollider);
         }
+
+        for (var i = 0; i < spawnableInteractables.spawnOxygenInteractablesOnStartAmount; i++)
+        {
+            SpawnNewOxygen();
+        }
     }
 
     private void CheckForSpawnConditions(int currentPlayerScore)
     {
         if(ableToSpawnAll) return;
 
-        if (currentPlayerScore > spawnableInteractables.scoreToSpawnStar && !ableToSpawnStars)
+        if (spawnableInteractables.scoreToSpawnStar > 0 && !ableToSpawnStars && currentPlayerScore > spawnableInteractables.scoreToSpawnStar)
         {
             ableToSpawnStars = true;
             StartCoroutine(SpawnNewItem(spawnableInteractables.starInteractable, spawnableInteractables.timeToSpawnStar,
                 spawnableInteractables.scoreToSpawnStar, starsTransforms));
         }
-        if (currentPlayerScore > spawnableInteractables.scoreToSpawnSpeedBoost && !ableToSpawnSpeedBoosts)
+        if (spawnableInteractables.scoreToSpawnSpeedBoost > 0 && !ableToSpawnSpeedBoosts && currentPlayerScore > spawnableInteractables.scoreToSpawnSpeedBoost)
         {
             ableToSpawnSpeedBoosts = true;
             StartCoroutine(SpawnNewItem(spawnableInteractables.speedBoostInteractable, spawnableInteractables.timeToSpawnSpeedBoost,
                  spawnableInteractables.maxAmountOfSpeedBoosts, speedBoostsTransforms));
         }
-        if (currentPlayerScore > spawnableInteractables.scoreToSpawnSlowBoost && !ableToSpawnSlowBoosts)
+        if (spawnableInteractables.scoreToSpawnSlowBoost > 0 && !ableToSpawnSlowBoosts && currentPlayerScore > spawnableInteractables.scoreToSpawnSlowBoost)
         {
             ableToSpawnSlowBoosts = true;
             StartCoroutine(SpawnNewItem(spawnableInteractables.slowBoostInteractable, spawnableInteractables.timeToSpawnSlowBoost,
                  spawnableInteractables.maxAmountOfSlowBoosts, slowBoostsTransforms));
         }
-        if (currentPlayerScore > spawnableInteractables.scoreToSpawnSwamp && !ableToSpawnSwamps)
+        if (spawnableInteractables.scoreToSpawnSwamp > 0 && !ableToSpawnSwamps && currentPlayerScore > spawnableInteractables.scoreToSpawnSwamp)
         {
             ableToSpawnSwamps = true;
             StartCoroutine(SpawnNewItem(spawnableInteractables.swampInteractable, spawnableInteractables.timeToSpawnSwamp, 
                 spawnableInteractables.maxAmountOfSwamps, swampsTransforms));
         }
-        if (currentPlayerScore > spawnableInteractables.scoreToSpawnDogAndDogHouse && !ableToSpawnDogs)
+        if (spawnableInteractables.scoreToSpawnDogAndDogHouse > 0 && !ableToSpawnDogs && currentPlayerScore > spawnableInteractables.scoreToSpawnDogAndDogHouse)
         {
             ableToSpawnDogs = true;
             SpawnNewDogs();

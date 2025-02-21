@@ -8,8 +8,9 @@ public class SpawnableInteractables : ScriptableObject
     [Header("Spawn distance")] 
     [Min(0.1f)]public float minSpawnDistance;
     public float maxSpawnDistance;
-    
-    [Space(5)][Header("Oxygen")]
+
+    [Space(5)] [Header("Oxygen")] 
+    public int spawnOxygenInteractablesOnStartAmount;
     public OxygenItem oxygenInteractable;
     
     [Space(5)] [Header("Star")] 
