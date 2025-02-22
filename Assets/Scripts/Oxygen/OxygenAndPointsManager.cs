@@ -40,12 +40,18 @@ public class OxygenAndPointsManager : MonoBehaviour
 
         OxygenItem.AddOxygen += OxygenCollected;
         Collectable.AddScore += AddScoreOnCollectableCollected;
+
+        //TEMPORARY
+        EventManager.endGameOnAllQuestsCompleted += GameEnd;
     }
 
     private void OnDisable()
     {
         OxygenItem.AddOxygen -= OxygenCollected;
         Collectable.AddScore -= AddScoreOnCollectableCollected;
+        
+        //TEMPORARY
+        EventManager.endGameOnAllQuestsCompleted -= GameEnd;
     }
 
     private void Update()

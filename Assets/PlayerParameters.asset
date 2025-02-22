@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107ec3f0442e80e48894e32065e4f167, type: 3}
   m_Name: PlayerParameters
   m_EditorClassIdentifier: 
-  preGameOxygenTimeAmount: 30
-  maximumOxygenTime: 30
+  preGameOxygenTimeAmount: 50
+  maximumOxygenTime: 50
   timeWhenStartExtraLastTimeSlowDown: 3
-  oxygenConsumedMultiplier: 1
+  oxygenConsumedMultiplier: 0.2
   extraLastTimeSlowDown: 0.6
-  minimumMoveSpeed: 0
+  minimumMoveSpeed: 150
   moveSpeed: 550
   rotationSpeed: 15

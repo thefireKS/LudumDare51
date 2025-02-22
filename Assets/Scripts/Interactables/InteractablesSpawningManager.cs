@@ -31,7 +31,8 @@ public class InteractablesSpawningManager : MonoBehaviour
     {
         OxygenItem.OnOxygenCollected += SpawnNewOxygen;
         OxygenAndPointsManager.ScoreChanged += CheckForSpawnConditions;
-        DogHouseInteraction.DogWasReleased += SpawnNewDogs;
+        //DogHouseInteraction.DogWasReleased += SpawnNewDogs;
+        RescueTheDogEvent.spawnEventDog += SpawnNewDogs;
 
         starsTransforms = new List<Transform>();
         speedBoostsTransforms = new List<Transform>();
@@ -43,7 +44,8 @@ public class InteractablesSpawningManager : MonoBehaviour
     {
         OxygenItem.OnOxygenCollected -= SpawnNewOxygen;
         OxygenAndPointsManager.ScoreChanged -= CheckForSpawnConditions;
-        DogHouseInteraction.DogWasReleased -= SpawnNewDogs;
+        //DogHouseInteraction.DogWasReleased -= SpawnNewDogs;
+        RescueTheDogEvent.spawnEventDog -= SpawnNewDogs;
     }
 
     private void Start()
