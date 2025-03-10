@@ -8,6 +8,8 @@ public abstract class EventLogic : MonoBehaviour
 {
     public static Action OnEventStart, OnEventEnd;
 
+    public static Action GetInstancePosition;
+
     public abstract void StartEvent();
 
     public abstract void EndEvent();

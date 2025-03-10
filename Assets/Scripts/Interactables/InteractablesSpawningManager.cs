@@ -27,12 +27,15 @@ public class InteractablesSpawningManager : MonoBehaviour
 
     public static Action<Transform> AddOxygenToPointerList;
 
+    public static Action<Vector3> GiveRandomPosition;
+
     private void OnEnable()
     {
         OxygenItem.OnOxygenCollected += SpawnNewOxygen;
         OxygenAndPointsManager.ScoreChanged += CheckForSpawnConditions;
         //DogHouseInteraction.DogWasReleased += SpawnNewDogs;
         RescueTheDogEvent.spawnEventDog += SpawnNewDogs;
+        EventLogic.GetInstancePosition += GiveRandomPositionToObject;
 
         starsTransforms = new List<Transform>();
         speedBoostsTransforms = new List<Transform>();
@@ -46,6 +49,8 @@ public class InteractablesSpawningManager : MonoBehaviour
         OxygenAndPointsManager.ScoreChanged -= CheckForSpawnConditions;
         //DogHouseInteraction.DogWasReleased -= SpawnNewDogs;
         RescueTheDogEvent.spawnEventDog -= SpawnNewDogs;
+        
+        EventLogic.GetInstancePosition -= GiveRandomPositionToObject;
     }
 
     private void Start()
@@ -151,6 +156,11 @@ public class InteractablesSpawningManager : MonoBehaviour
             new Vector3(offset.x + randomPosX, offset.y + selectedArea.center.y, offset.z + randomPosZ);
 
         return areaPosition;
+    }
+
+    private void GiveRandomPositionToObject()
+    {
+        GiveRandomPosition.Invoke(GetRandomSpawnAreaPosition());
     }
 
     private void RemoveMostDistancedObject(ref List<Transform> list)
