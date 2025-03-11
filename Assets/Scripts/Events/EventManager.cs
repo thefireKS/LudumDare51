@@ -60,8 +60,7 @@ public class EventManager : MonoBehaviour
         foreach (var ev in currentEvents)
         {
             if (ev.Value) continue;
-            Instantiate(ev.Key.gameObject,EventStatusHolder.transform);
-            ongoingEvent = ev.Key;
+            ongoingEvent = Instantiate(ev.Key.gameObject,EventStatusHolder.transform).GetComponent<EventLogic>();
             return ongoingEvent;
         }
 

@@ -32,7 +32,7 @@ public class OxygenAndPointsManager : MonoBehaviour
         }
     }
     
-    private float timer;
+    private float timer, extraOxygenWaste = 1f;
 
     private void OnEnable()
     {
@@ -40,6 +40,8 @@ public class OxygenAndPointsManager : MonoBehaviour
 
         OxygenItem.AddOxygen += OxygenCollected;
         Collectable.AddScore += AddScoreOnCollectableCollected;
+
+        MeteorShowerEvent.affectPlayerOxygen += ChangePlayerOxygenWasteSpeed;
 
         //TEMPORARY
         EventManager.endGameOnAllQuestsCompleted += GameEnd;
@@ -50,6 +52,8 @@ public class OxygenAndPointsManager : MonoBehaviour
         OxygenItem.AddOxygen -= OxygenCollected;
         Collectable.AddScore -= AddScoreOnCollectableCollected;
         
+        MeteorShowerEvent.affectPlayerOxygen -= ChangePlayerOxygenWasteSpeed;
+        
         //TEMPORARY
         EventManager.endGameOnAllQuestsCompleted -= GameEnd;
     }
@@ -57,9 +61,9 @@ public class OxygenAndPointsManager : MonoBehaviour
     private void Update()
     {
         if (timer > playerParameters.timeWhenStartExtraLastTimeSlowDown)
-            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier;
+            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier * extraOxygenWaste;
         else
-            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier * playerParameters.extraLastTimeSlowDown;
+            timer -= Time.deltaTime * playerParameters.oxygenConsumedMultiplier * playerParameters.extraLastTimeSlowDown * extraOxygenWaste;
         
         if (timer <= 0f)
             GameEnd();
@@ -79,6 +83,11 @@ public class OxygenAndPointsManager : MonoBehaviour
         score += scoreGiven;
         
         scoreText.text = "SCORE: " + score;
+    }
+
+    private void ChangePlayerOxygenWasteSpeed(float amount)
+    {
+        extraOxygenWaste = amount;
     }
     
     private void GameEnd()

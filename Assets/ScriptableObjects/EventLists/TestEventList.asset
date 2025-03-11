@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f109c0f522c1b340a5d61ca2ae82dd0, type: 3}
   m_Name: TestEventList
   m_EditorClassIdentifier: 
-  timeToStartEvent: 15
+  timeToStartEvent: 5
   events:
-  - {fileID: 2853678341985253510, guid: 7c9184b4a14c64946aea2b1dbac54d63, type: 3}
-  - {fileID: 2310390161140222006, guid: a2d95e1c6d1832c4cb9198c8b6cee70a, type: 3}
+  - {fileID: 8515655661288634034, guid: 1307e1364bf716842bbf860e779bb849, type: 3}

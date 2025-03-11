@@ -12,8 +12,6 @@ public class CollectOxygenBallonsEvent : EventLogic
 
     private void OnEnable()
     {
-        eventText.text = currentOxygenCollected + " / " + target;
-        
         OxygenItem.OnOxygenCollected += OnOxygenCollected;
     }
 
@@ -24,6 +22,8 @@ public class CollectOxygenBallonsEvent : EventLogic
 
     public override void StartEvent()
     {
+        eventText.text = currentOxygenCollected + " / " + target;
+        
         OnEventStart?.Invoke();
     }
 
