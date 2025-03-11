@@ -15,7 +15,7 @@ MonoBehaviour:
   preGameOxygenTimeAmount: 50
   maximumOxygenTime: 50
   timeWhenStartExtraLastTimeSlowDown: 3
-  oxygenConsumedMultiplier: 0.2
+  oxygenConsumedMultiplier: 1
   extraLastTimeSlowDown: 0.6
   minimumMoveSpeed: 150
   moveSpeed: 550
